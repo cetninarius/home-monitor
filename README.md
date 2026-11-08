@@ -1,98 +1,86 @@
 # Home Monitor
 
-Lightweight Android TV dashboard for the VOX living-room TV.
+**A customizable home dashboard for Android TV and Google TV.**
 
-## What you get
+Home Monitor is an independent, lightweight Android TV app that turns your TV into a glanceable screen with time, weather, calendar, tasks, and optional integrations. It is designed for D-pad remote controls and low-resource devices.
 
-1. Standalone Leanback app **Home Monitor** (`com.custom.vox.homemonitor`)
-2. Baghdad fullscreen background + 24h clock/date
-3. **Calendar**, **To-do**, **Weather**, optional **Services** / **Now Playing**
-4. Optional experimental **WF1 Live Queue** (off by default on fresh installs)
-5. Local **web admin** on the TV (`:8765`, foreground-only, token auth)
-6. Mac-side read-only WF1 proxy (`proxy/`) when using WF1
-7. Cursor-friendly CLI (`scripts/hm-cli.sh`)
+> **Early public beta.** The app has been developed and tested primarily on a VOX UHD 43A11U314B (Ateko / rtd2851a). Compatibility and behavior on other Android TV / Google TV devices are not yet verified. This app is **not** a replacement for your TV firmware or the default system launcher.
 
-## Requirements
+## Features
 
-- VOX TV on LAN with network ADB (`192.168.0.56:5555`, Ateko / `rtd2851a`)
-- Mac host running WF1 monitor on `127.0.0.1:8791` (for WF1 widget)
-- Android SDK + JDK 17
-- Node 18+ for the WF1 proxy
+- Fullscreen time, date, weather and interchangeable scenic backgrounds
+- Local calendar and to-do list, with a browser-based admin interface
+- Optional service health monitoring (UptimeRobot or direct HTTP checks)
+- Optional SmartTube *Now Playing* integration (requires notification access and compatible media sessions)
+- Optional **WF1 Live Queue**: a preview of tasks from the developer's separate AI workflow system, or your own compatible self-hosted proxy; **not needed** to use the app
+- TV remote (D-pad) navigation and adaptive layouts
+- Optional opt-in crash diagnostics; **off by default**
 
-## Configure
+No account, subscriptions, ads or telemetry-based product analytics are required.
 
-1. Copy `android/local.properties.example` → `android/local.properties`
-2. Set `sdk.dir`. Optionally set `wf1.proxy.baseUrl` / `wf1.proxy.token` to seed owner upgrades
-3. Start the WF1 proxy only if you use the experimental WF1 widget:
+## Download and install
 
-```bash
-cd proxy
-HM_TOKEN='your-strong-token' node server.mjs
-```
+**[GitHub Releases](https://github.com/cetninarius/home-monitor/releases)** — look for an APK attachment in the newest published release.
 
-## Build & install
+**Important:** At the time this README was updated, no GitHub Release with an APK was visible in this repository. If the Releases page is empty, there is **nothing to download yet**. Do not install APKs from unrelated third-party sites claiming to represent this project.
 
-```bash
-cd android
-./gradlew :app:assembleDebug
+Follow the [installation and first-run guide](INSTALL.md) for USB/file-manager sideloading, optional ADB, upgrades and troubleshooting. **Root and ADB are not required for ordinary installation.**
 
-export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
-S=192.168.0.56:5555
-adb connect "$S"
-adb -s "$S" shell getprop ro.hardware   # expect rtd2851a
-adb -s "$S" install -r app/build/outputs/apk/debug/app-debug.apk
-adb -s "$S" shell am start -n com.custom.vox.homemonitor/.MainActivity
-```
+If an official release includes `SHA256SUMS.txt`, use it to verify the downloaded APK before installing.
 
-Use `install -r` so Room data is preserved. Do not set Home Monitor as HOME.
+## First-time setup
 
-## Web admin (calendar & to-do)
+1. Open **Home Monitor** from your TV's Apps screen. It does not register as your default HOME app.
+2. Use the remote to open **Settings** and choose a background and visible widgets.
+3. To edit local calendar or to-do items, open the on-TV **web admin** URL from a browser on your local network and enter the token displayed on the TV.
+4. Some TVs may not allow direct LAN web-admin access; advanced users can use `adb forward` as described in [INSTALL.md](INSTALL.md).
+5. Configure optional services only if you use them. Missing SmartTube, WF1 or monitoring integrations should not prevent using the core dashboard.
 
-While Home Monitor is open on the TV:
+**Security:** The web admin runs on your local network over plain HTTP while the app is in the foreground. It uses a token, but traffic is **not encrypted**. Use it only on a trusted home network; never expose port `8765` to the public internet or forward it on your router. Keep the admin token private.
 
-1. Note the banner URL and first-run admin token
-2. On this VOX, open via ADB forward (direct LAN HTTP hangs after TCP connect):
+## Device support
 
-```bash
-adb -s 192.168.0.56:5555 forward tcp:8765 tcp:8765
-# then browse http://127.0.0.1:8765
-```
+| Property | Status |
+|---|---|
+| Platform | Android TV / Google TV with Leanback support |
+| Minimum Android version | Android 5.0 (API 21) |
+| Primary tested device | VOX UHD 43A11U314B, Ateko / rtd2851a |
+| Other TVs and remotes | Experimental / tester feedback welcome |
+| Default launcher replacement | **No** |
+| Root / ADB for normal use | **No** |
+| SmartTube / WF1 | Optional |
 
-3. Sign in with the token (never embedded in page source)
+## Feedback and bug reports
 
-The admin server **stops when the app leaves the foreground**.
+Found an issue? [Open a GitHub Issue](https://github.com/cetninarius/home-monitor/issues). Include your TV make/model, Android version, app version, steps to reproduce, expected behavior and what happened.
 
-## Cursor / CLI
+**Do not include** API keys, local admin tokens, personal calendar/to-do content, account details, private IP addresses, or raw logs with sensitive information.
 
-```bash
-adb -s 192.168.0.56:5555 forward tcp:8765 tcp:8765
-export HM_TV=http://127.0.0.1:8765
-export HM_TOKEN='…'   # from TV banner / logcat tag HomeMonitorAdmin
-
-./scripts/hm-cli.sh event add --date 2026-11-12 --time 15:00 --title "Dentist"
-./scripts/hm-cli.sh task add --priority high --title "Renew domain"
-./scripts/hm-cli.sh task complete --match grocery
-```
-
-## Docs
-
-- [Architecture](docs/architecture.md)
-- [Beta release readiness](docs/release/BETA_RELEASE_READINESS.md)
-- [Public distribution drafts](docs/release/public/)
-- [BF3 private beta release](docs/bf3-release.md)
-- [WF1 integration](docs/wf1-integration.md)
-- [Calendar & To-do](docs/calendar-todo.md)
-- [Services & Weather](docs/services-weather.md)
-- [AGENTS.md](AGENTS.md)
+For data handling, see [PRIVACY.md](PRIVACY.md).
 
 ## Known limitations
 
-- Admin HTTP is cleartext + token; no TLS in this phase
-- Admin only while the dashboard activity is resumed
-- On VOX UHD 43A11U314B, direct `http://192.168.0.56:8765` TCP connects but HTTP does not complete; use `adb forward` → `http://127.0.0.1:8765` (verified)
-- WF1 proxy must run on the Mac; TV never talks to `:8791`
-- No recurring calendar events yet
+- Some Android TV vendors restrict notification access, overlays, background processes or third-party apps.
+- The local browser admin may be unreachable over a TV's LAN IP despite the TV having network access. ADB port forwarding is an advanced workaround.
+- Weather currently defaults to Belgrade; location selection is not yet generally available.
+- No recurring calendar events or cloud calendar sync.
+- WF1 requires a separately hosted, authorized read-only LAN proxy; it does not ship with the APK.
+- Direct LAN admin uses HTTP, not HTTPS.
+- Not a stock launcher replacement and not a Netflix/streaming player.
 
-## Non-goals
+## Developers
 
-Weather, server monitoring, smart home, Google Calendar sync, widget drag-editor, WF1 control from the TV.
+Native Kotlin / XML + Android Leanback project. The app source is in [`android/`](android/), with optional WF1 proxy in [`proxy/`](proxy/).
+
+```bash
+cd android
+./gradlew :app:testDebugUnitTest :app:assembleDebug
+```
+
+Requires a suitable Android SDK and JDK 17. The debug APK is for development, **not** the signed beta release. Keep keystores, local properties and credentials outside version control. See [signing notes](docs/release/SIGNING.md).
+
+This repository is publicly readable. **No open-source license has been selected yet**; public availability of source code does not grant unrestricted redistribution or modification rights. That is an open maintainer decision.
+
+## Credits and independence
+
+Independent project, not affiliated with VOX, Google, YouTube, SmartTube, or the developers of optional third-party services.
