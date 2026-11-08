@@ -64,6 +64,8 @@ Found an issue? [Open a GitHub Issue](https://github.com/cetninarius/home-monito
 
 For data handling, see [PRIVACY.md](PRIVACY.md). For distribution and permitted use, see [LICENSE.md](LICENSE.md).
 
+Maintainer: [Release publishing checklist and ready-to-paste notes](docs/RELEASE_GUIDE.md).
+
 ## Known limitations
 
 - Some Android TV vendors restrict notification access, overlays, background processes or third-party apps.
