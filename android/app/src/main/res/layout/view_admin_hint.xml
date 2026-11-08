@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_glass_panel"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/admin_hint_title"
+        android:textColor="@color/hm_text_primary"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/adminHintUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/hm_accent_cyan"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/adminHintToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/hm_text_secondary"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/adminHintDismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_task_card"
+        android:focusable="true"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="6dp"
+        android:text="@string/admin_hint_dismiss"
+        android:textColor="@color/hm_text_primary"
+        android:textSize="12sp" />
+</LinearLayout>

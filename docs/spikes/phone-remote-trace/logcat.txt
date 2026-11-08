@@ -1,0 +1,1025 @@
+--------- beginning of system
+11-08 00:31:22.021   703  1873 V AlarmManager: setAlarm[2] when:88510478
+--------- beginning of main
+11-08 00:32:21.402   703   744 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { flg=0x10000000 cmp=com.custom.vox.homemonitor/.MainActivity }
+11-08 00:32:21.402   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:21.402   703   744 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-08 00:32:21.403   703  2998 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.custom.vox.homemonitor/.MainActivity} from uid 2000
+11-08 00:32:21.406   463   463 I perfetto: ing_service_impl.cc:758 Configured tracing session 394, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:5, uid:1071 session name: ""
+11-08 00:32:21.406   459   459 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=394)
+11-08 00:32:21.409   703  2998 D ActivityTaskManager: resumeTopActivity
+11-08 00:32:21.416   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:21.419   703  2753 D WindowManager: setKeyguardOccluded occluded=false
+11-08 00:32:21.426   703   745 D WindowManager: setKeyguardOccluded occluded=true
+11-08 00:32:21.429   703   744 D EventSequenceValidator: onActivityLaunched during UNKNOWN.
+11-08 00:32:21.429   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunched(EventSequenceValidator.java:149)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunched(LaunchObserverRegistryImpl.java:157)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$UGY1OclnLIQLMEL9B55qjERFf4o(Unknown Source:0)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$UGY1OclnLIQLMEL9B55qjERFf4o.accept(Unknown Source:10)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:21.429   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:21.439   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:21.456   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:21.462  2171  2171 I DashboardReclaimer: dashboard resumed
+11-08 00:32:21.489   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:21.505   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:21.521  2171  2171 I HomeMonitorAdmin: Admin server listening on http://192.168.0.56:8765 (bind=0.0.0.0)
+11-08 00:32:21.521  2171  2171 I HomeMonitorAdmin: Admin URL: http://192.168.0.56:8765
+11-08 00:32:21.523   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 2 mismatches with 3
+11-08 00:32:21.657   364   416 I chatty  : uid=1000(system) HwBinder:364_2 identical 8 lines
+11-08 00:32:21.673   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 2 mismatches with 3
+11-08 00:32:21.687   703   745 V WindowManager: mEnterBenchMode =  false mBoostMode = 30
+11-08 00:32:21.689   703   749 D ArtManagerInternalImpl: /data/misc/iorapd/com.custom.vox.homemonitor/8/com.custom.vox.homemonitor.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-08 00:32:21.691   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 3 mismatches with 4
+11-08 00:32:21.696   703   744 D EventSequenceValidator: onActivityLaunchFinished during UNKNOWN.
+11-08 00:32:21.696   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunchFinished(EventSequenceValidator.java:185)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunchFinished(LaunchObserverRegistryImpl.java:175)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$QcawcFcJtEX4EhYptq_Vb4j368Y(Unknown Source:0)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$QcawcFcJtEX4EhYptq_Vb4j368Y.accept(Unknown Source:10)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:21.696   703   744 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-08 00:32:21.707   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 3 mismatches with 4
+11-08 00:32:21.840   364   416 I chatty  : uid=1000(system) HwBinder:364_2 identical 8 lines
+11-08 00:32:21.857   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 3 mismatches with 4
+11-08 00:32:21.860   703   745 D WindowManager: setKeyguardOccluded occluded=false
+11-08 00:32:21.874   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 2 mismatches with 3
+11-08 00:32:21.890  1276  2033 I MediaCodecRenderer: releaseCodec
+11-08 00:32:21.891   505  2850 D OMX_VDEC: set-state: state=Executing, next=2
+11-08 00:32:21.891   505  2856 I OMX_VDEC: iii: sync
+11-08 00:32:21.891   505  2858 I OMX_VDEC: ooo: sync
+11-08 00:32:21.891   505  2856 D OMX_VDEC: flush-in
+11-08 00:32:21.894   364   685 D DvoComposer: dvo layer dismissed
+11-08 00:32:21.894   364   684 D VideoScalerTvService: +++ tv-disable-adaptive[0]
+11-08 00:32:21.895   382  3558 D TvParcel: Invoke setAdaptiveStream
+11-08 00:32:21.895   382  3558 D TvParcel: Send 0
+11-08 00:32:21.895   382  3558 D TvParcel: Send 0
+11-08 00:32:21.895   505  2856 D VideoClient: init: inband fps=60000, increment=1500
+11-08 00:32:21.895   512   600 D VSCControl: SetAdaptiveStream, bOnOff:0
+11-08 00:32:21.895   512   600 I VSC     : ++ KADP_VSC_SetAdaptiveStream
+11-08 00:32:21.896   512   600 I VSC     : -- KADP_VSC_SetAdaptiveStream Done:0000.000507
+11-08 00:32:21.896   382  3558 D IVSC    : (FUNC:setAdaptiveStream, LINE:449)
+11-08 00:32:21.896   382  3558 D TvParcel: Invoke setAdaptiveStream Done:0000.001195
+11-08 00:32:21.896   364   684 D VideoScalerTvService: --- tv-disable-adaptive[0]: ret=1
+11-08 00:32:21.896   364   684 D VideoScalerTvService: +++ tv-disconnect[0]
+11-08 00:32:21.896   382  3558 D VSCClient: [{s} disConnect] win(0) (OTHER 0) vscInput: VDEC
+11-08 00:32:21.896   382  3558 D TvParcel: Invoke vscservice disconnect
+11-08 00:32:21.896   382  3558 D TvParcel: Send 0
+11-08 00:32:21.896   382  3558 D TvParcel: Send 3
+11-08 00:32:21.896   382  3558 D TvParcel: Send 0
+11-08 00:32:21.896   382  3558 I chatty  : uid=1000(system) HwBinder:382_8 identical 1 line
+11-08 00:32:21.896   382  3558 D TvParcel: Send 0
+11-08 00:32:21.896   382  3558 D TvParcel: Send TV_SOURCE(12,0,)
+11-08 00:32:21.896   382  3558 D TvParcel: Send 7
+11-08 00:32:21.897   505  2858 D OMX_VDEC: flush-out
+11-08 00:32:21.897   505  2858 D OMX_VDEC: flush: hdr=0xaf942b60 queueId=3004616704
+11-08 00:32:21.897   505  2858 D OMX_VDEC: flush-out: segment end=312
+11-08 00:32:21.897   505  2858 I OMX_VDEC: buffer pool: count=14
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [00] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb3403000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [01] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb3277000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [02] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb3200000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [03] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb31a8000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [04] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb31a4000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [05] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb31a0000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [06] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb3189000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [07] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb3185000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [08] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb3181000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [09] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb317d000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [10] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb3179000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [11] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb3175000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [12] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb3171000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.897   505  2858 I OMX_VDEC:     [13] state=  DEQUUE, size=12441600, phyaddr=0x00000000, queue-id=0xb316d000, malloc=0x0/0, tag=0x00000000
+11-08 00:32:21.898   505  2856 D OMX_VDEC: iii: exit
+11-08 00:32:21.898   512   600 D VSCControl: Disconnect, tvSrc(src:12, port:0)
+11-08 00:32:21.898   512   600 I VSC     : ++ KADP_VSC_SetRGB444Mode
+11-08 00:32:21.898   512   600 I VSC     : -- KADP_VSC_SetRGB444Mode Done:0000.000034
+11-08 00:32:21.898   512   600 D VSCControl: SetAdaptiveStream, bOnOff:0
+11-08 00:32:21.898   512   600 I VSC     : ++ KADP_VSC_SetAdaptiveStream
+11-08 00:32:21.899   512   600 I VSC     : -- KADP_VSC_SetAdaptiveStream Done:0000.000016
+11-08 00:32:21.899   512   600 I VSC     : ++ KADP_VSC_Disconnect
+11-08 00:32:21.899   512   600 I VSC     : vscInput wId : 0,  vscInput.type : 3, vscInput.attr : 0, vscInput.resourceIndex : 0
+11-08 00:32:21.899   505  2858 D OMX_VDEC: ooo: exit
+11-08 00:32:21.900   505  2850 I OMX_VDEC: set-state: state=1
+11-08 00:32:21.909   512   600 I VSC     : KADP_VSC_Disconnect outputmode : 0
+11-08 00:32:21.914   505  2850 I OMX_VDEC: to-loaded: port unpopulated
+11-08 00:32:21.914   505  2850 I OMX_VDEC: resetComponent:795 0xafae4040
+11-08 00:32:21.918   505  2850 D android.hardware.media.omx@1.0-service: release rb: base=3/0x1b200000/8388608, hdr=1/0x77ff000,64, ext=0/0x0/0
+11-08 00:32:21.918   505  2850 D android.hardware.media.omx@1.0-service: close vdec_fd
+11-08 00:32:21.919   505  2850 D android.hardware.media.omx@1.0-service: release rb: base=1/0x9840000/262144, hdr=1/0x7059000,64, ext=0/0x0/0
+11-08 00:32:21.937   505  2850 D android.hardware.media.omx@1.0-service: release rb: base=1/0x74fa000/4096, hdr=1/0x74f9000,64, ext=0/0x0/0
+11-08 00:32:21.937   505  2850 D android.hardware.media.omx@1.0-service: release rb: base=1/0x98b9000/512, hdr=1/0x98b8000,64, ext=0/0x0/0
+11-08 00:32:21.938   505  2850 D VideoClient: VDCcnt=1
+11-08 00:32:21.938   505  2850 D VideoClient: VDCcnt=0
+11-08 00:32:21.938   505  2850 E CodecResource: [CRM] Free client 0xb32c0a30, isReclaim=0
+11-08 00:32:21.938   505  2850 E CodecResource: [CRM] (0xb32c0a30)Destruct
+11-08 00:32:21.938   505  2853 E CodecResource: [CRM] receive cancel event
+11-08 00:32:21.938   505  2853 E CodecResource: [CRM] (0xb32c0a30)break while, defer=0
+11-08 00:32:21.941   505  2850 W OMX_VDEC_DBG: deinit an uninitialized instance
+11-08 00:32:21.949  1276  2848 D SurfaceUtils: disconnecting from surface 0xb1e8e2c8, reason disconnectFromSurface
+11-08 00:32:21.954   505  1123 D RTKOMX_CORE: [vendor/realtek/common/ATV/hardware/omx-il-rtk/omx/core_android/OMX_Core.c RTKOMX_FreeHandle]
+11-08 00:32:21.955   505  2850 I OMX_VDEC: resetComponent:795 0xafae4040
+11-08 00:32:21.955   505  2850 W OMX_VDEC_DBG: deinit an uninitialized instance
+11-08 00:32:21.955   505  1123 D RTKOMX_CORE: Found matching pHandle(0xb18c1820) at index 1 with refCount 1
+11-08 00:32:21.974   389   435 E BufferQueueProducer: [org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity#0](id:185000002fc,api:0,p:-1,c:389) disconnect: not connected (req=1)
+11-08 00:32:21.975  1276  1336 W libEGL  : EGLNativeWindowType 0xb1e87e08 disconnect failed
+11-08 00:32:21.986  1276  1276 D PlaybackFragment: releasePlayer: Playback activity is blocked. Exiting...
+11-08 00:32:22.023   512   600 I VSC     : KADP_VSC_Set_State wId : 0, state : 4, vsc_state : 2, vsc_sub_state : 1
+11-08 00:32:22.023   512   600 I VSC     : -- KADP_VSC_Disconnect Done:0000.124631
+11-08 00:32:22.023   512   600 I VSC     : ++ KADP_VSC_Close
+11-08 00:32:22.023   512   600 I VSC     : KADP_VSC_Set_State wId : 0, state : 5, vsc_state : 1, vsc_sub_state : 1
+11-08 00:32:22.023   512   600 I VSC     : -- KADP_VSC_Close Done:0000.000058
+11-08 00:32:22.023   512   600 D ResourceClient: ReleaseResource
+11-08 00:32:22.024   382  3558 D TvParcel: Invoke vscservice disconnect Done:0000.127614
+11-08 00:32:22.024   364   684 D VideoScalerTvService: --- tv-disconnect[0]: ret=1
+11-08 00:32:22.037   364   685 D VideoSinkClientRtkImpl: +++ Dvo Stop +++
+11-08 00:32:22.037   364   685 I DVO     : (Stop)+++ 0x09888000 Port = 0
+11-08 00:32:22.084   364   685 I DVO     : (Stop)--- 0x09888000 Port = 0 Result = 0
+11-08 00:32:22.113   364   685 D VideoSinkClientRtkImpl: --- Dvo Stop ---
+11-08 00:32:22.113   364   685 I VideoComposer: releaseResource, uniqid: 00000080, port: 0
+11-08 00:32:22.113   364   685 I VideoComposer: release resource, uniqid: 00000080, port: 0
+11-08 00:32:22.113   364   685 E CodecResource: [CRM] Free client 0xaab80370, isReclaim=0
+11-08 00:32:22.113   364   685 E CodecResource: [CRM] (0xaab80370)Destruct
+11-08 00:32:22.114   364  2860 E CodecResource: [CRM] receive cancel event
+11-08 00:32:22.114   364  2860 E CodecResource: [CRM] (0xaab80370)break while, defer=0
+11-08 00:32:22.786   703  1045 E WifiVendorHal: getWifiLinkLayerStats_1_3_Internal(l.973) failed {.code = ERROR_UNKNOWN, .description = unknown error}
+11-08 00:32:23.059   459   459 I perfetto: probes_producer.cc:329  Producer stop (id=390)
+11-08 00:32:23.061   463   463 I perfetto: ng_service_impl.cc:1948 Tracing session 390 ended, total sessions:4
+11-08 00:32:23.285   512   691 W CI      : [CI+] WAR: [STB_CIModuleDetected:223] Still Force CAM Absent(47)!
+11-08 00:32:23.394  1276  1977 D LoungeService: New command: 
+11-08 00:32:23.394  1276  1977 D LoungeService: 17
+11-08 00:32:23.394  1276  1977 D LoungeService: [[12,["play"]]
+11-08 00:32:23.394  1276  1977 D LoungeService: ]
+11-08 00:32:23.397  1276  1977 D JsonPathTypeAdapter: CommandItem: Path not found: $[1][1].key
+11-08 00:32:23.397  1276  1977 D JsonPathTypeAdapter: CommandItem: Path not found: $[1][1]
+11-08 00:32:23.398  1276  1977 I chatty  : uid=10059(org.smarttube.stable) RxNewThreadSche identical 3 lines
+11-08 00:32:23.398  1276  1977 D JsonPathTypeAdapter: CommandItem: Path not found: $[1][1]
+11-08 00:32:23.398  1276  1276 D RemoteController: Is remote connected: true, command type: 2
+11-08 00:32:23.400  1276  1276 D ViewManager: Launching activity: PlaybackActivity
+11-08 00:32:23.401   386  3636 W AudioFlinger: moveEffectChain_l() effect chain for session 0 not on source thread 0xb345d030
+11-08 00:32:23.401   386  3636 E APM::VolumeCurve: Invalid device category 1 for Volume Curve
+11-08 00:32:23.402   386  3636 W APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+11-08 00:32:23.402   386  3636 W APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+11-08 00:32:23.402  1276  2033 D AudioTrack: getTimestamp_l(105): device stall time corrected using current time 35285936593855
+11-08 00:32:23.404  1276  1276 D VideoStateController: setPlayEnabled true
+11-08 00:32:23.404  1276  2896 D LoungeService: Post onStateChange pos: 3840, dur: 5411000, state: 1...
+11-08 00:32:23.404   703   865 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-08 00:32:23.408   703   865 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-08 00:32:23.412   703   744 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { flg=0x10000000 cmp=org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity }
+11-08 00:32:23.412   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:23.412   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:23.412  1276  2900 D LoungeService: Post onStateChange pos: 3840, dur: 5411000, state: 1...
+11-08 00:32:23.412   703   744 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-08 00:32:23.413  1276  2896 W System.err: java.io.InterruptedIOException: interrupted
+11-08 00:32:23.413  1276  2896 W System.err: 	at okio.Timeout.throwIfReached(Timeout.kt:98)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okio.OutputStreamSink.write(JvmOkio.kt:53)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okio.AsyncTimeout$sink$1.write(AsyncTimeout.kt:99)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okio.RealBufferedSink.flush(RealBufferedSink.kt:267)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http1.Http1Codec.finishRequest(Http1Codec.java:166)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:84)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+11-08 00:32:23.414   348  3122 D rtk_audio_hw: start_output_stream_deep_buffer: pcm_open(PCM_DEEP_BUFFER)[1]
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+11-08 00:32:23.414   703   865 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity} from uid 10059
+11-08 00:32:23.414   519  1248 D BufferPoolAccessor2.0: bufferpool2 0xad4416a8 : 0(0 size) total buffers - 0(0 size) used buffers - 211/218 (recycle/alloc) - 7/218 (fetch/transfer)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:127)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.414  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:23.415  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper.addCommonHeaders$lambda$4(RetrofitOkHttpHelper.kt:103)
+11-08 00:32:23.415   703   865 W ActivityTaskManager: Background activity start for org.smarttube.stable allowed because SYSTEM_ALERT_WINDOW permission is granted.
+11-08 00:32:23.415  1276  2845 D BufferPoolAccessor2.0: bufferpool2 0x997fadc8 : 7(40320 size) total buffers - 7(40320 size) used buffers - 1/11 (recycle/alloc) - 10/443 (fetch/transfer)
+11-08 00:32:23.416  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper.$r8$lambda$sA6HJyjQ7aEKhk32Tqits-NlQ5I(Unknown Source:0)
+11-08 00:32:23.416  1276  1968 D BufferPoolAccessor2.0: bufferpool2 0x997f1ee8 : 0(0 size) total buffers - 0(0 size) used buffers - 1/11 (recycle/alloc) - 30/9526 (fetch/transfer)
+11-08 00:32:23.416  1276  1968 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x997f1ee8 cached: 0/0M, 0/0% in use; allocs: 11, 9% recycled; transfers: 9526, 100% unfetched
+11-08 00:32:23.417  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper$$ExternalSyntheticLambda0.intercept(Unknown Source:0)
+11-08 00:32:23.417  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.417  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:23.417  1276  2896 W System.err: 	at com.liskovsoft.sharedutils.okhttp.interceptors.UnzippingInterceptor.intercept(UnzippingInterceptor.java:28)
+11-08 00:32:23.417  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.417  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:23.417  1276  2896 W System.err: 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:257)
+11-08 00:32:23.417  1276  2896 W System.err: 	at okhttp3.RealCall.execute(RealCall.java:93)
+11-08 00:32:23.417  1276  2896 W System.err: 	at retrofit2.OkHttpCall.execute(OkHttpCall.java:186)
+11-08 00:32:23.417  1276  2896 W System.err: 	at retrofit2.ExecutorCallAdapterFactory$ExecutorCallbackCall.execute(ExecutorCallAdapterFactory.java:92)
+11-08 00:32:23.417  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.getResponse(RetrofitHelper.java:118)
+11-08 00:32:23.417  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:99)
+11-08 00:32:23.417  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:83)
+11-08 00:32:23.417  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:79)
+11-08 00:32:23.417  1276  2896 W System.err: 	at com.liskovsoft.youtubeapi.lounge.LoungeService.postCommand(LoungeService.java:399)
+11-08 00:32:23.417  1276  2896 W System.err: 	at com.liskovsoft.youtubeapi.lounge.LoungeService.postStateChange(LoungeService.java:274)
+11-08 00:32:23.418  1276  2896 W System.err: 	at com.liskovsoft.youtubeapi.service.YouTubeRemoteControlService.lambda$postStateChangeObserve$3$com-liskovsoft-youtubeapi-service-YouTubeRemoteControlService(YouTubeRemoteControlService.java:61)
+11-08 00:32:23.418  1276  2896 W System.err: 	at com.liskovsoft.youtubeapi.service.YouTubeRemoteControlService$$ExternalSyntheticLambda2.run(Unknown Source:8)
+11-08 00:32:23.418  1276  2896 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper.lambda$fromRunnable$13(RxHelper.java:306)
+11-08 00:32:23.418  1276  2896 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper$$ExternalSyntheticLambda1.subscribe(Unknown Source:2)
+11-08 00:32:23.418  1276  2896 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper.lambda$wrapOnSubscribe$16(RxHelper.java:396)
+11-08 00:32:23.418  1276  2896 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper$$ExternalSyntheticLambda6.subscribe(Unknown Source:2)
+11-08 00:32:23.418  1276  2896 W System.err: 	at io.reactivex.internal.operators.observable.ObservableCreate.subscribeActual(ObservableCreate.java:40)
+11-08 00:32:23.418  1276  2896 W System.err: 	at io.reactivex.Observable.subscribe(Observable.java:12284)
+11-08 00:32:23.418  1276  2896 W System.err: 	at io.reactivex.internal.operators.observable.ObservableSubscribeOn$SubscribeTask.run(ObservableSubscribeOn.java:96)
+11-08 00:32:23.418  1276  2896 W System.err: 	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+11-08 00:32:23.418  1276  2896 W System.err: 	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+11-08 00:32:23.418  1276  2896 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-08 00:32:23.418  1276  2896 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-08 00:32:23.418  1276  2896 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-08 00:32:23.418  1276  2896 W System.err: 	at java.lang.Thread.run(Thread.java:923)
+11-08 00:32:23.418  1276  2896 W System.err: java.lang.IllegalStateException: java.io.InterruptedIOException: interrupted
+11-08 00:32:23.418   463   463 I perfetto: ing_service_impl.cc:758 Configured tracing session 395, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:5, uid:1071 session name: ""
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.getResponse(RetrofitHelper.java:127)
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:99)
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:83)
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:79)
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.youtubeapi.lounge.LoungeService.postCommand(LoungeService.java:399)
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.youtubeapi.lounge.LoungeService.postStateChange(LoungeService.java:274)
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.youtubeapi.service.YouTubeRemoteControlService.lambda$postStateChangeObserve$3$com-liskovsoft-youtubeapi-service-YouTubeRemoteControlService(YouTubeRemoteControlService.java:61)
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.youtubeapi.service.YouTubeRemoteControlService$$ExternalSyntheticLambda2.run(Unknown Source:8)
+11-08 00:32:23.419   459   459 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=395)
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper.lambda$fromRunnable$13(RxHelper.java:306)
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper$$ExternalSyntheticLambda1.subscribe(Unknown Source:2)
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper.lambda$wrapOnSubscribe$16(RxHelper.java:396)
+11-08 00:32:23.419  1276  2896 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper$$ExternalSyntheticLambda6.subscribe(Unknown Source:2)
+11-08 00:32:23.419  1276  2896 W System.err: 	at io.reactivex.internal.operators.observable.ObservableCreate.subscribeActual(ObservableCreate.java:40)
+11-08 00:32:23.419  1276  2896 W System.err: 	at io.reactivex.Observable.subscribe(Observable.java:12284)
+11-08 00:32:23.419  1276  2896 W System.err: 	at io.reactivex.internal.operators.observable.ObservableSubscribeOn$SubscribeTask.run(ObservableSubscribeOn.java:96)
+11-08 00:32:23.419  1276  2896 W System.err: 	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+11-08 00:32:23.421   519   519 D BufferPoolAccessor2.0: bufferpool2 0xad4429c8 : 0(0 size) total buffers - 0(0 size) used buffers - 4747/4760 (recycle/alloc) - 28/4760 (fetch/transfer)
+11-08 00:32:23.421   519   519 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xad4429c8 cached: 0/0M, 0/0% in use; allocs: 4760, 100% recycled; transfers: 4760, 99% unfetched
+11-08 00:32:23.419  1276  2896 W System.err: 	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+11-08 00:32:23.421  1276  2896 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-08 00:32:23.421  1276  2896 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-08 00:32:23.421  1276  2896 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-08 00:32:23.422  1276  2896 W System.err: 	at java.lang.Thread.run(Thread.java:923)
+11-08 00:32:23.422  1276  2896 W System.err: Caused by: java.io.InterruptedIOException: interrupted
+11-08 00:32:23.423  1276  2896 W System.err: 	at okio.Timeout.throwIfReached(Timeout.kt:98)
+11-08 00:32:23.423  1276  2896 W System.err: 	at okio.OutputStreamSink.write(JvmOkio.kt:53)
+11-08 00:32:23.423  1276  2896 W System.err: 	at okio.AsyncTimeout$sink$1.write(AsyncTimeout.kt:99)
+11-08 00:32:23.423  1276  2896 W System.err: 	at okio.RealBufferedSink.flush(RealBufferedSink.kt:267)
+11-08 00:32:23.423  1276  2896 W System.err: 	at okhttp3.internal.http1.Http1Codec.finishRequest(Http1Codec.java:166)
+11-08 00:32:23.423  1276  2896 W System.err: 	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:84)
+11-08 00:32:23.423  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.423  1276  2896 W System.err: 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+11-08 00:32:23.423  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.423  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:23.423  1276  2896 W System.err: 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+11-08 00:32:23.424  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.425  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:23.425  1276  2896 W System.err: 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+11-08 00:32:23.425  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.429  1276  2896 W System.err: 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:127)
+11-08 00:32:23.429  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.429  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:23.429  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper.addCommonHeaders$lambda$4(RetrofitOkHttpHelper.kt:103)
+11-08 00:32:23.429  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper.$r8$lambda$sA6HJyjQ7aEKhk32Tqits-NlQ5I(Unknown Source:0)
+11-08 00:32:23.429  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper$$ExternalSyntheticLambda0.intercept(Unknown Source:0)
+11-08 00:32:23.429  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.429  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:23.429  1276  2896 W System.err: 	at com.liskovsoft.sharedutils.okhttp.interceptors.UnzippingInterceptor.intercept(UnzippingInterceptor.java:28)
+11-08 00:32:23.429  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:23.429  1276  2896 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:23.429  1276  2896 W System.err: 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:257)
+11-08 00:32:23.429  1276  2896 W System.err: 	at okhttp3.RealCall.execute(RealCall.java:93)
+11-08 00:32:23.429  1276  2896 W System.err: 	at retrofit2.OkHttpCall.execute(OkHttpCall.java:186)
+11-08 00:32:23.429  1276  2896 W System.err: 	at retrofit2.ExecutorCallAdapterFactory$ExecutorCallbackCall.execute(ExecutorCallAdapterFactory.java:92)
+11-08 00:32:23.429  1276  2896 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.getResponse(RetrofitHelper.java:118)
+11-08 00:32:23.429  1276  2896 W System.err: 	... 20 more
+11-08 00:32:23.436   703   865 D ActivityTaskManager: resumeTopActivity
+11-08 00:32:23.442  1276  2033 W AudioTrack: getTimestamp_l(105): retrograde timestamp time corrected, 35285960040781 < 35285963364373
+11-08 00:32:23.461   703   744 D EventSequenceValidator: onActivityLaunched during UNKNOWN.
+11-08 00:32:23.461   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunched(EventSequenceValidator.java:149)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunched(LaunchObserverRegistryImpl.java:157)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$UGY1OclnLIQLMEL9B55qjERFf4o(Unknown Source:0)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$UGY1OclnLIQLMEL9B55qjERFf4o.accept(Unknown Source:10)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:23.461   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:23.469  2171  2171 I DashboardReclaimer: paused — armed 90000ms for SmartTube remote steal
+11-08 00:32:23.477   703   865 D WindowManager: setKeyguardOccluded occluded=true
+11-08 00:32:23.479   386   796 D AudioFlinger: mixer(0xb28e4030) throttle end: throttle time(5)
+11-08 00:32:23.520  1276  1276 D PlaybackFragment: Skip player initialization.
+11-08 00:32:23.537  1276  1276 D ScreensaverManager: Enable screensaver
+11-08 00:32:23.537  1276  1276 D ScreensaverManager: Disable screensaver
+11-08 00:32:23.552  1276  1276 D PlayerUIController: Starting auto hide ui timer...
+11-08 00:32:23.552  1276  1276 D PlayerUIController: Stopping auto hide ui timer...
+11-08 00:32:23.599  1276  3887 I OMXClient: IOmx service obtained
+11-08 00:32:23.600   505  1123 I OMXMaster: makeComponentInstance(OMX.realtek.video.decoder) in android.hardwar process
+11-08 00:32:23.600   505  1123 D RTKOMX_CORE: [vendor/realtek/common/ATV/hardware/omx-il-rtk/omx/core_android/OMX_Core.c RTKOMX_GetHandle] OMX.realtek.video.decoder
+11-08 00:32:23.600   505  1123 D RTKOMX_CORE: Found component OMX.realtek.video.decoder with refCount 0
+11-08 00:32:23.601   505  1123 I OMX_VDEC: update port mode: RAW -> RAW
+11-08 00:32:23.604  1276  2033 I CodecNameUnknown-MediaCodecVideoRenderer: configureCodec: codecName = android.media.MediaCodec@b3728e0, deviceNeedsNoPostProcessWorkaround = false, format = Format(315, 2160p60, null, video/x-vnd.on2.vp9, vp9, 66433672, null, [3840, 2160, 60.0], [-1, -1]), surface = Surface(name=null)/@0xfa4ae7f, crypto = null
+11-08 00:32:23.604  1276  3875 D SurfaceUtils: connecting to surface 0xb1e91528, reason connectToSurface
+11-08 00:32:23.605  1276  3875 I MediaCodec: [OMX.realtek.video.decoder] setting surface generation to 1306645
+11-08 00:32:23.606  1276  3875 D SurfaceUtils: disconnecting from surface 0xb1e91528, reason connectToSurface(reconnect)
+11-08 00:32:23.606  1276  3875 D SurfaceUtils: connecting to surface 0xb1e91528, reason connectToSurface(reconnect)
+11-08 00:32:23.615   703   745 V WindowManager: mEnterBenchMode =  false mBoostMode = 30
+11-08 00:32:23.623   505  3888 I OMX_VDEC: SetParameter StandardComponentRole video_decoder.vp9
+11-08 00:32:23.623   505  3888 I OMX_VDEC: nv12 enabled
+11-08 00:32:23.625   703   744 D EventSequenceValidator: onActivityLaunchFinished during UNKNOWN.
+11-08 00:32:23.625   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onActivityLaunchFinished(EventSequenceValidator.java:185)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnActivityLaunchFinished(LaunchObserverRegistryImpl.java:175)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$QcawcFcJtEX4EhYptq_Vb4j368Y(Unknown Source:0)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$QcawcFcJtEX4EhYptq_Vb4j368Y.accept(Unknown Source:10)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:23.625   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:23.626   703   744 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-08 00:32:23.628   389   686 E BufferQueueProducer: [com.custom.vox.homemonitor/com.custom.vox.homemonitor.MainActivity#0](id:18500000300,api:0,p:-1,c:389) disconnect: not connected (req=1)
+11-08 00:32:23.628  2171  2444 W libEGL  : EGLNativeWindowType 0xb1e960b8 disconnect failed
+11-08 00:32:23.631  1276  1276 D ScreensaverManager: Stopping auto hide ui timer...
+11-08 00:32:23.632   505  3888 D OMX_VDEC: use-anb: port=1, enable=1
+11-08 00:32:23.632   505  3888 I OMX_VDEC: update port mode: RAW -> RAW_ANB
+11-08 00:32:23.633   505  3888 D OMX_VDEC: alloc-anb: port=1, enable=0
+11-08 00:32:23.633   505  1123 E OMXNodeInstance: getExtensionIndex(0xb18c1820:realtek.decoder, OMX.google.android.index.storeMetaDataInBuffers) ERROR: Undefined(0x80001001)
+11-08 00:32:23.634  1276  3887 E ACodec  : [OMX.realtek.video.decoder] setPortMode on output to DynamicANWBuffer failed w/ err -2147483648
+11-08 00:32:23.635   505  3888 I OMX_VDEC: prepare-adaptive-playback: enable 1 , max w/h=3840/2160
+11-08 00:32:23.636   505  3888 E OMX_VDEC: get-param: unsuported index; index=0x6f600011
+11-08 00:32:23.636   505  1123 E OMXNodeInstance: getParameter(0xb18c1820:realtek.decoder, ??(0x6f600011)) ERROR: UnsupportedIndex(0x8000101a)
+11-08 00:32:23.636   505  3888 D OMX_VDEC: alloc-anb: port=1, enable=0
+11-08 00:32:23.637   505  3888 D OMX_VDEC: use-anb: port=1, enable=1
+11-08 00:32:23.640   505  1123 E OMXNodeInstance: getExtensionIndex(0xb18c1820:realtek.decoder, OMX.google.android.index.storeMetaDataInBuffers) ERROR: Undefined(0x80001001)
+11-08 00:32:23.641   505  3888 D OMX_VDEC: get-video-port-format: port=0, idx=0
+11-08 00:32:23.641   505  3888 D OMX_VDEC: set-video-port-format: port=0, idx=0, compression=10, color=0, rate=0
+11-08 00:32:23.642   505  3888 D OMX_VDEC: get-video-port-format: port=1, idx=0
+11-08 00:32:23.642   505  3888 D OMX_VDEC: get-video-port-format: port=1, idx=0, ret=0x0, color=0x97320002
+11-08 00:32:23.643   505  3888 D OMX_VDEC: set-video-port-format: port=1, idx=0, compression=0, color=2536636418, rate=0
+11-08 00:32:23.643   505  3888 I OMX_VDEC: get-port-def [0]: buf-cnt-actual=2, buf-size=4194304, color=0x0, width=32, height=32, stride=0, populated=0
+11-08 00:32:23.643   505  3888 I OMX_VDEC: update size: w=1920->3840, h=1080->2160
+11-08 00:32:23.643   505  3888 I OMX_VDEC: update crop: w=0->3840, h=0->2160
+11-08 00:32:23.643   505  3888 I OMX_VDEC: update stride: y=0->3840, c=0->3840
+11-08 00:32:23.643   505  3888 I OMX_VDEC: set-port-def [0]: buf-cnt-actual=2, buf-size=4194304, color=0x0, width=3840, height=2160, stride=0, populated=0
+11-08 00:32:23.643   505  3888 I OMX_VDEC: get-port-def [1]: buf-cnt-actual=10, buf-size=12441600, color=0x97320002, width=3840, height=2160, stride=3840, populated=0
+11-08 00:32:23.644   505  3888 I OMX_VDEC: update size: w=3840->3840, h=2160->2160
+11-08 00:32:23.644   505  3888 I OMX_VDEC: update crop: w=3840->3840, h=2160->2160
+11-08 00:32:23.644   505  3888 I OMX_VDEC: undate output buffer count 10 -> 10
+11-08 00:32:23.644   505  3888 I OMX_VDEC: set-port-def [1]: buf-cnt-actual=10, buf-size=12441600, color=0x97320002, width=3840, height=2160, stride=3840, populated=0
+11-08 00:32:23.644   505  3888 I OMX_VDEC: set-color-aspects: (R:0, P:0, M:0, T:0) -> (R:2, P:1, M:1, T:3)
+11-08 00:32:23.644   505  3888 I OMX_VDEC: set-hdr-info (R: 0 0, G: 0 0, B: 0, 0, W: 0, 0, MaxDispL: 0, MinDispL: 0, MaxContentL: 0, MaxFrameAvgL: 0)
+11-08 00:32:23.645   505  3888 I OMX_VDEC: get-port-def [0]: buf-cnt-actual=2, buf-size=4194304, color=0x0, width=3840, height=2160, stride=0, populated=0
+11-08 00:32:23.645   505  1123 E OMXNodeInstance: setConfig(0xb18c1820:realtek.decoder, ConfigPriority(0x6f800002)) ERROR: UnsupportedIndex(0x8000101a)
+11-08 00:32:23.645  1276  3887 I ACodec  : codec does not support config priority (err -1010)
+11-08 00:32:23.645   505  1123 E OMXNodeInstance: setConfig(0xb18c1820:realtek.decoder, ConfigOperatingRate(0x6f800003)) ERROR: UnsupportedIndex(0x8000101a)
+11-08 00:32:23.645  1276  3887 I ACodec  : codec does not support config operating rate (err -1010)
+11-08 00:32:23.645   505  3888 I OMX_VDEC: get-port-def [0]: buf-cnt-actual=2, buf-size=4194304, color=0x0, width=3840, height=2160, stride=0, populated=0
+11-08 00:32:23.646   505  3888 E OMX_VDEC: get-param: unsuported index; index=0x6f600007
+11-08 00:32:23.646   505   505 E OMXNodeInstance: getParameter(0xb18c1820:realtek.decoder, ParamVideoAndroidVp8Encoder(0x6f600007)) ERROR: UnsupportedIndex(0x8000101a)
+11-08 00:32:23.647   505  3888 I OMX_VDEC: get-port-def [1]: buf-cnt-actual=10, buf-size=12441600, color=0x97320002, width=3840, height=2160, stride=3840, populated=0
+11-08 00:32:23.647   505  3888 D OMX_VDEC: get-output-crop: 3840x2160
+11-08 00:32:23.648   505  3888 I OMX_VDEC: set-color-aspects: (R:2, P:1, M:1, T:3) -> (R:2, P:1, M:1, T:3)
+11-08 00:32:23.648   505  3888 I OMX_VDEC: get-color-aspects (R:2, P:1, M:1, T:3)
+11-08 00:32:23.648   505  3888 I OMX_VDEC: get-color-aspects (R:2, P:1, M:1, T:3)
+11-08 00:32:23.648   505  3888 I OMX_VDEC: get-hdr-info (R: 0 0, G: 0 0, B: 0, 0, W: 0, 0, MaxDispL: 0, MinDispL: 0, MaxContentL: 0, MaxFrameAvgL: 0)
+11-08 00:32:23.650   505  3888 I OMX_VDEC: set-state: state=2
+11-08 00:32:23.651   505  3888 I OMX_VDEC: get-port-def [0]: buf-cnt-actual=2, buf-size=4194304, color=0x0, width=3840, height=2160, stride=0, populated=0
+11-08 00:32:23.657   505  3888 D OMX_VDEC: use-buf: hdr=0xbea9401c, port=0, priv=0xb3545d70, size=4194304, buff=0xaf2db000
+11-08 00:32:23.659   505  3888 D OMX_VDEC: use-buf: hdr=0xbea9401c, port=0, priv=0xb35499d0, size=4194304, buff=0xaea80000
+11-08 00:32:23.659   505  3888 I OMX_VDEC: get-port-def [1]: buf-cnt-actual=10, buf-size=12441600, color=0x97320002, width=3840, height=2160, stride=3840, populated=0
+11-08 00:32:23.659   505  3888 I OMX_VDEC: get-port-def [1]: buf-cnt-actual=10, buf-size=12441600, color=0x97320002, width=3840, height=2160, stride=3840, populated=0
+11-08 00:32:23.663   505  3888 D OMX_VDEC: [onSetParameter][3775]forceOsd:0
+11-08 00:32:23.663   505  3888 I OMX_VDEC: consumer-usage: hwc, usage=0x900, adaptive=1, codec=10, transfer=3
+11-08 00:32:23.663   505  3888 I OMX_VDEC: update port mode: RAW_ANB -> DVO_ANB
+11-08 00:32:23.663   505  3888 I OMX_VDEC: get-usage: 0x10400030
+11-08 00:32:23.664  1276  3887 D SurfaceUtils: disconnecting from surface 0xb1e91528, reason setNativeWindowSizeFormatAndUsage
+11-08 00:32:23.664  1276  3887 D SurfaceUtils: connecting to surface 0xb1e91528, reason setNativeWindowSizeFormatAndUsage
+11-08 00:32:23.665  1276  3887 D SurfaceUtils: set up nativeWindow 0xb1e91528 for 3840x2160, color 0x97320002, rotation 0, usage 0x10402930
+11-08 00:32:23.665   505  3888 I OMX_VDEC: update size: w=3840->3840, h=2160->2160
+11-08 00:32:23.665   505  3888 I OMX_VDEC: update crop: w=3840->3840, h=2160->2160
+11-08 00:32:23.665   505  3888 I OMX_VDEC: update stride: y=3840->3840, c=3840->1920
+11-08 00:32:23.665   505  3888 I OMX_VDEC: undate output buffer count 6 -> 14
+11-08 00:32:23.665   505  3888 I OMX_VDEC: set-port-def [1]: buf-cnt-actual=14, buf-size=12441600, color=0x97320002, width=3840, height=2160, stride=3840, populated=0
+11-08 00:32:23.667  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.667   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.668   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.668   505  3888 I OMX_VDEC: update stride: stride: 3840->64
+11-08 00:32:23.668   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb35495e0, size=12441600, buff=0xb1a42380
+11-08 00:32:23.669   703   749 D ArtManagerInternalImpl: /data/misc/iorapd/org.smarttube.stable/2461/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-08 00:32:23.669  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.669   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.669   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.670   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb35489e0, size=12441600, buff=0xb1a431f0
+11-08 00:32:23.674  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.674   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.674   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.674   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb35496a0, size=12441600, buff=0xb1a42230
+11-08 00:32:23.676  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.677   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.677   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.677   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb3545770, size=12441600, buff=0xb1a402b0
+11-08 00:32:23.680  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.680   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.680   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.680   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb35496d0, size=12441600, buff=0xb1a42e00
+11-08 00:32:23.682  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.682   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.683   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.683   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb3543e50, size=12441600, buff=0xb1a40010
+11-08 00:32:23.684  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.684   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.684   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.684   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb35493a0, size=12441600, buff=0xb1a40400
+11-08 00:32:23.685  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.686   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.686   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.686   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb35498e0, size=12441600, buff=0xb1a41f90
+11-08 00:32:23.687  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.688   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.688   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.688   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb3542c50, size=12441600, buff=0xb1a42620
+11-08 00:32:23.691  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.691   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.691   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.692   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb3545350, size=12441600, buff=0xb1a406a0
+11-08 00:32:23.693  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.694   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.694   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.694   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb35494f0, size=12441600, buff=0xb1a40d30
+11-08 00:32:23.695  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.696   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.696   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.696   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb3549370, size=12441600, buff=0xb1a40550
+11-08 00:32:23.698  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.698   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.698   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.698   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb35492b0, size=12441600, buff=0xb1a44450
+11-08 00:32:23.700  1276  3887 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.700   505  1123 W gralloc4: Buffer descriptor with invalid usage bits 0x2000
+11-08 00:32:23.700   505  3888 I OMX_VDEC: use-anb: stride=64
+11-08 00:32:23.700   505  3888 D OMX_VDEC: use-buf: hdr=0xafd9dc10, port=1, priv=0xb3544510, size=12441600, buff=0xb1a42770
+11-08 00:32:23.700   505  3888 I OMX_VDEC: to-idle: port populated
+11-08 00:32:23.700   505  3888 D OMX_VDEC: eCompressionFormat=10
+11-08 00:32:23.701   505  3888 I OMX_VDEC: configure reference mode: codec=3, size=3840x2160, rate=60000
+11-08 00:32:23.701   505  3888 E CodecResource: [CRM] (0xb32c1f00)Construct
+11-08 00:32:23.701   505  3888 E CodecResource: [CRM] initialize client name: (VDC)
+11-08 00:32:23.701   505  3888 D VideoClient: acquire-resource: adaptive=1, w/h=3840/2160, max=3840/2160
+11-08 00:32:23.701   505  3888 E CodecResource: acquireResource codec(vp9) max_width(3840) max_height(2160) fps(60000) encoder(0) adaptive(0) try_acquire(0)
+11-08 00:32:23.701   505  3888 I VideoClient: crm: acquired resource, core=0x1, port=0, size=3840/3840
+11-08 00:32:23.701   505  3888 I VideoClient: core_type: 801
+11-08 00:32:23.701   505  3888 I VideoClient: resource id 129
+11-08 00:32:23.701   505  3888 I VideoClient: acquireResource vdoPort=RHAL_CRM_VIDEO_PORT_NONE
+11-08 00:32:23.701   505  3888 D VideoClient: VDCcnt=0
+11-08 00:32:23.701   505  3888 D VideoClient: VDCcnt=1
+11-08 00:32:23.701   505  3888 E VideoClient: Wrong Core Type: CodecType=3 coreType=801
+11-08 00:32:23.701   505  3888 I VideoClient: Configure reference mode: type=3 core-type=804, secure=0, size=3840/2160, max=3840/2160, framerate=60000, profile=-1, low-delay=0
+11-08 00:32:23.702   505  3890 E CodecResource: [CRM] (0xb32c1f00)(VDC) wait events
+11-08 00:32:23.702   505  3888 I android.hardware.media.omx@1.0-service: MEM: rb_type=2, hdr=0x074f9000/64, base=0x074fa000/4096
+11-08 00:32:23.704   505  3888 D android.hardware.media.omx@1.0-service: alloc-cpb: size=8388608
+11-08 00:32:23.704   505  3888 D android.hardware.media.omx@1.0-service: first time allocate secure mem
+11-08 00:32:23.705   505  3888 I VideoClient: bitstream buffer CPB: bs=0x1b200000/8388608, hdr=0x77ff000/64
+11-08 00:32:23.705   505  3888 D android.hardware.media.omx@1.0-service: vrpc_setupRingBuf: base=3/0x1b200000/8388608, hdr=1/0x77ff000,64, ext=0/0x0/0
+11-08 00:32:23.712   505  3888 I android.hardware.media.omx@1.0-service: MEM: rb_type=1, hdr=0x07059000/64, base=0x09840000/262144
+11-08 00:32:23.715   505  3888 D VideoClient: init: inband fps=60000, increment=1500
+11-08 00:32:23.715   505  3888 I VideoClient: resource info to composer and vdec: type=804, 3840/3840, 2160/2160, 60000, port=0, render_mode=1100
+11-08 00:32:23.716   505  3888 I android.hardware.media.omx@1.0-service: MEM: rb_type=8, hdr=0x09884000/64, base=0x09885000/512
+11-08 00:32:23.717   505  3888 I OMX_VRPC: run-composer: port=255, rr=10, dv=0, md-out=0x0/0
+11-08 00:32:23.733   505  3888 W android.hardware.media.omx@1.0-service: vrpc run tooks 15683000 ns
+11-08 00:32:23.733   505  3888 I OMX_VDEC: hasHdrInfo:True
+11-08 00:32:23.733   505  3888 D VideoClient: init: inband static metadata; t=1, m=1, p=1, HDRrangeFlag=0
+11-08 00:32:23.735   505  3888 I OMX_VDEC: set-state: state=3
+11-08 00:32:23.735   499  1902 W ResourceManagerService: Ignoring request to add new resource entry with value <= 0
+11-08 00:32:23.753   505  3891 I OMX_VDEC: csd, size=0, avcc=0
+11-08 00:32:23.753   505  3891 I VideoClient: fastout
+11-08 00:32:23.778   505  3892 I OMX_VDEC: frame-info: 3840x2160/60000, hdr=0
+11-08 00:32:23.778   505  3892 D OMX_VDEC: ooo: transfer=0->1
+11-08 00:32:23.778   505  3892 D OMX_VDEC: ignore event 0x7f400001
+11-08 00:32:23.779   505  3888 I OMX_VDEC: get-port-def [1]: buf-cnt-actual=14, buf-size=207360, color=0x97320002, width=3840, height=2160, stride=64, populated=1
+11-08 00:32:23.779   505  3888 D OMX_VDEC: get-output-crop: 3840x2160
+11-08 00:32:23.779   505  3888 I OMX_VDEC: get-color-aspects (R:2, P:1, M:1, T:3)
+11-08 00:32:23.780   505  3888 I OMX_VDEC: get-color-aspects (R:2, P:1, M:1, T:3)
+11-08 00:32:23.780   505  3888 I OMX_VDEC: get-hdr-info (R: 0 0, G: 0 0, B: 0, 0, W: 0, 0, MaxDispL: 0, MinDispL: 0, MaxContentL: 0, MaxFrameAvgL: 0)
+11-08 00:32:23.780   505   505 E OMXNodeInstance: getConfig(0xb18c1820:realtek.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: UnsupportedIndex(0x8000101a)
+11-08 00:32:23.780  1276  3887 W ACodec  : [OMX.realtek.video.decoder] BAD CODEC: Output format changed unexpectedly from (diff) AMessage(what = 0x00000000) = {
+11-08 00:32:23.780  1276  3887 W ACodec  :       int32_t stride = 3840
+11-08 00:32:23.780  1276  3887 W ACodec  :     } to (diff) AMessage(what = 0x00000000) = {
+11-08 00:32:23.780  1276  3887 W ACodec  :       int32_t stride = 64
+11-08 00:32:23.780  1276  3887 W ACodec  :     }
+11-08 00:32:23.781  1276  2033 I CodecNameUnknown-MediaCodecVideoRenderer: onOutputFormatChanged: outputFormat:{crop-right=3839, color-format=-1758330878, slice-height=2160, mime=video/raw, hdr-static-info=java.nio.HeapByteBuffer[pos=0 lim=25 cap=25], stride=64, color-standard=1, color-transfer=3, crop-bottom=2159, crop-left=0, width=3840, color-range=2, crop-top=0, height=2160}, codec:android.media.MediaCodec@b3728e0
+11-08 00:32:23.790   364   416 I HWC_VIDEO: setCompositionType: usage=0x10400930, type=0x2 -> 0x1
+11-08 00:32:23.790   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 2 mismatches with 3
+11-08 00:32:23.793   364   685 E CodecResource: [CRM] (0xaab80370)Construct
+11-08 00:32:23.793   364   685 E CodecResource: [CRM] initialize client name: (hwc-client)
+11-08 00:32:23.793   364   685 E CodecResource: acquireResource codec(display_vp) max_width(0) max_height(0) fps(0) encoder(0) adaptive(0) try_acquire(0)
+11-08 00:32:23.793   364  3893 E CodecResource: [CRM] (0xaab80370)(hwc-client) wait events
+11-08 00:32:23.793   364   685 I DvoComposer: DVO: acquired resource, port=0, id=130
+11-08 00:32:23.794   364   685 D DvoComposer: +++ Dvo Config +++
+11-08 00:32:23.795   364   685 I DVO     : MEM: dvo=0x09888000/32768
+11-08 00:32:23.795   364   685 D VideoSinkClientRtkImpl: VideoSink set low_latency:0
+11-08 00:32:23.795   364   685 D VideoSinkClientRtkImpl: clock type=258
+11-08 00:32:23.795   364   685 D VideoSinkClientRtkImpl: +++ Dvo Run +++
+11-08 00:32:23.796   364   685 I DVO     : +++ 0x09888000 Instance = 0 Version = 30 AVPort = 0/0 Dolby = 0 DolbyProfile = 0
+11-08 00:32:23.797   364   685 I DVO     : --- 0x09888000 Result = 0
+11-08 00:32:23.797   364   685 D VideoSinkClientRtkImpl: --- Dvo Run ---
+11-08 00:32:23.797   364   685 D DvoComposer: --- DVO Config ---
+11-08 00:32:23.797   364   685 D DvoComposer: DVO: source=3840/2160, crop=0.000000/0.000000/3840.000000/2160.000000, hdr=SDR
+11-08 00:32:23.797   364   685 D DisplayManager: notify hdr type: this=0xab801030, callback=0xaab41cf0, type=0
+11-08 00:32:23.798  2271  2306 D DisplayMonitorService: hdr changed: 0
+11-08 00:32:23.800   364   685 D DvoComposer: vsc-connect: in=0/0/3840/2160, out=0/0/1920/1080(1920/1080), hdr=SDR
+11-08 00:32:23.800   364   684 D VideoScalerTvService: +++ tv-enable-adaptive[0]
+11-08 00:32:23.800   382  3558 D TvParcel: Invoke setAdaptiveStream
+11-08 00:32:23.800   382  3558 D TvParcel: Send 0
+11-08 00:32:23.800   382  3558 D TvParcel: Send 1
+11-08 00:32:23.800   512   600 D VSCControl: SetAdaptiveStream, bOnOff:1
+11-08 00:32:23.800   512   600 I VSC     : ++ KADP_VSC_SetAdaptiveStream
+11-08 00:32:23.801   512   600 I VSC     : -- KADP_VSC_SetAdaptiveStream Done:0000.000330
+11-08 00:32:23.801   382  3558 D IVSC    : (FUNC:setAdaptiveStream, LINE:449)
+11-08 00:32:23.801   382  3558 D TvParcel: Invoke setAdaptiveStream Done:0000.000816
+11-08 00:32:23.802   364   684 D VideoScalerTvService: --- tv-enable-adaptive[0]: ret=1
+11-08 00:32:23.802   364   684 D VideoScalerTvService: +++ tv-connect[0]: port=0, vsc-type=3, tv-src=12, src-type=7
+11-08 00:32:23.802   382  3558 D VSCClient: [{s} connect] win(0) (OTHER 0) vscInput: VDEC
+11-08 00:32:23.802   382  3558 D TvParcel: Invoke vscservice connect
+11-08 00:32:23.802   382  3558 D TvParcel: Send 0
+11-08 00:32:23.802   382  3558 D TvParcel: Send 3
+11-08 00:32:23.802   382  3558 D TvParcel: Send 0
+11-08 00:32:23.802   382  3558 I chatty  : uid=1000(system) HwBinder:382_8 identical 1 line
+11-08 00:32:23.802   382  3558 D TvParcel: Send 0
+11-08 00:32:23.803   382  3558 D TvParcel: Send TV_SOURCE(12,0,)
+11-08 00:32:23.803   382  3558 D TvParcel: Send 7
+11-08 00:32:23.803   512   600 D VSCControl: Connect, tvSrc(src:12, port:0), srcType=7
+11-08 00:32:23.803   512   600 I VSC     : ++ KADP_VSC_Open
+11-08 00:32:23.803   512   600 I VSC     : KADP_VSC_Set_State wId : 0, state : 2, vsc_state : 2, vsc_sub_state : 1
+11-08 00:32:23.803   512   600 I VSC     : -- KADP_VSC_Open Done:0000.000055
+11-08 00:32:23.803   512   600 I VSC     : ++ KADP_VSC_Connect
+11-08 00:32:23.803   512   600 I VSC     : vscInput wId : 0,  vscInput.type : 3, vscInput.attr : 0, vscInput.resourceIndex : 0
+11-08 00:32:23.803   512   600 I VSC     : KADP_VSC_Connect outputmode : 0
+11-08 00:32:23.806   512   600 I VSC     : KADP_VSC_Set_State wId : 0, state : 3, vsc_state : 3, vsc_sub_state : 1
+11-08 00:32:23.806   512   600 I VSC     : -- KADP_VSC_Connect Done:0000.002568
+11-08 00:32:23.806   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 2 mismatches with 3
+11-08 00:32:23.806   382  3558 D IVSC    : connect (FILE:vendor/realtek/common/ATV/frameworks/native/appclass/tv/libtvsystem/vsc/IVSC.cpp, LINE:181)
+11-08 00:32:23.806   382  3558 D TvParcel: Invoke vscservice connect Done:0000.003981
+11-08 00:32:23.807   364   684 D VideoScalerTvService: --- tv-connect[0]: ret=1
+11-08 00:32:23.808   364   685 D VideoComposer: kVscConnected
+11-08 00:32:23.808   364   685 D DvoComposer: vsc-update: in=0/0/3840/2160, out=0/0/1920/1080, hdr=0
+11-08 00:32:23.809   364   684 D VideoScalerTvService: update region: a=1, in={0, 0, 3840, 2160 / 3840, 2160}, out={0, 0, 1920, 1080 / 1920, 1080} displayRegion{3840/2160}
+11-08 00:32:23.809   364   684 D VideoScalerTvService: +++ tv-region[0]: hdr=0
+11-08 00:32:23.809   382  3558 D VSCClient: [{s} SetInOutRegion]
+11-08 00:32:23.809   382  3558 D TvParcel: Invoke SetInOutRegion
+11-08 00:32:23.809   382  3558 D TvParcel: Send 0
+11-08 00:32:23.809   382  3558 I chatty  : uid=1000(system) HwBinder:382_8 identical 1 line
+11-08 00:32:23.809   382  3558 D TvParcel: Send 0
+11-08 00:32:23.809   512   600 D TvDisplayControl: SetInOutRegion wId=0, inRegion=(0,0,3840,2160), outRegion=(0,0,3840,2160), color=0, HDRType=0, sigRatio.iValue=0
+11-08 00:32:23.809   512   600 D TvDisplayControl: SetInputRegion wId=0, x=0, y=0, w=3840, h=2160, HDRType=0, sigType=0, sigRatio=2, sigValue=0x0
+11-08 00:32:23.809   512   600 I VSCControl: SetInputRegion start
+11-08 00:32:23.809   512   600 I VSC     : ++ KADP_VSC_SetInputRegion_ForAdaptive
+11-08 00:32:23.809   512   600 I VSC     : wId : 0,  KADP_VSC_SetInputRegion_ForAdaptive : 0,0,3840,2160
+11-08 00:32:23.809   512   600 I VSC     : -- KADP_VSC_SetInputRegion_ForAdaptive Done:0000.000069
+11-08 00:32:23.810   512   600 I VSCControl: SetInputRegion end
+11-08 00:32:23.810   512   600 D VSCControl: GetPanelInfo w=3840, h=2160
+11-08 00:32:23.810   512   600 D TvDisplayControl: [SetOutputRegion 389] OutRegion : 0, 0, 3840 2160
+11-08 00:32:23.810   512   600 I VSC     : ++ KADP_VSC_SetOutputRegion
+11-08 00:32:23.810   512   600 I VSC     : wId : 0,  KADP_VSC_SetOutputRegion : 0,0,3840,2160
+11-08 00:32:23.810   512   600 I VSC     : -- KADP_VSC_SetOutputRegion Done:0000.000118
+11-08 00:32:23.810   512   600 D PQControl: Enter applyPictureEffect
+11-08 00:32:23.810   512   600 D PQControl: applyPictureMode, src:20
+11-08 00:32:23.810   512   600 D PQControl: isSupportDolbyHDR() - isDolbyHDR:false
+11-08 00:32:23.811   512   600 D PQControl: apply vip mode
+11-08 00:32:23.811   512   600 D PQControl: setPictureMode:(20,9)
+11-08 00:32:23.811   512   600 I VPQ     : ++ RHAL_VPQ_MEMC_LowDelayMode
+11-08 00:32:23.811   512   600 I VPQ     : -- RHAL_VPQ_MEMC_LowDelayMode Done:0000.000001
+11-08 00:32:23.811   512   600 I VPQ     : ++ RHAL_VPQ_SetLowDelayMode
+11-08 00:32:23.812   512   600 I VPQ     : -- RHAL_VPQ_SetLowDelayMode Done:0000.000556
+11-08 00:32:23.812   512   600 D PQControl: setVipPictureMode, PQ Not By Pass, pic_mode:9 !
+11-08 00:32:23.812   512   600 W VPQ     : API NOT SUPPORT NOW!!
+11-08 00:32:23.815   512   600 D PQControl: setVipPictureMode RHAL_VPQ_SetDeBlocking 4
+11-08 00:32:23.815   512   600 D PQControl: setBackLight setBackLight 255
+11-08 00:32:23.823   512   600 D PQControl: setMemcMotionComp:(memclevel:3)
+11-08 00:32:23.823   512   600 E PQControl: memc not support!
+11-08 00:32:23.824   512   600 D PQControl: setHDMIColorRange:0
+11-08 00:32:23.824   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:23.824   512   600 D PQControl: Leave applyPictureEffect
+11-08 00:32:23.825   382   538 D RtkVSC  : VSCCListener notify!!
+11-08 00:32:23.825   382   538 D RtkVSC  : RtkVSC notify!!
+11-08 00:32:23.827   512   600 I VSCControl: SetWinBlank wId=0, bOnOff=0
+11-08 00:32:23.827   512   600 D VSCControl: SetVscWinBlankColor[0]
+11-08 00:32:23.827   512   600 I VSC     : ++ KADP_VSC_SetWinBlank
+11-08 00:32:23.827   512   600 I VSC     : wId : 0,  bOnOff : 0
+11-08 00:32:23.827   382  3332 D RtkVSC  : VSCCListener notify!!
+11-08 00:32:23.827   382  3332 D RtkVSC  : RtkVSC notify!!
+11-08 00:32:23.827   512   600 I VSC     : -- KADP_VSC_SetWinBlank Done:0000.000077
+11-08 00:32:23.828   382  3558 D IVSC    : SetInOutRegion (FILE:vendor/realtek/common/ATV/frameworks/native/appclass/tv/libtvsystem/vsc/IVSC.cpp, LINE:300)
+11-08 00:32:23.828   382  3558 D TvParcel: Invoke SetInOutRegion Done:0000.018544
+11-08 00:32:23.828   364   684 D VideoScalerTvService: --- tv-region[0]: ret=1
+11-08 00:32:23.829  3518  3571 V VSC-JNI : notify: msg:1, ext1:0, ext2:0
+11-08 00:32:23.830  3518  3571 D VSC-JNI : VSC_MESSAGE_SET_OUTPUT_REGION_END
+11-08 00:32:23.830  3518  3571 V VSC     : postEventFromNative got msg:1, arg1:0, arg2:0
+11-08 00:32:23.830  3518  3571 V VSC     : postEventFromNative sendMessage to EventHandler
+11-08 00:32:23.831  3518  3518 V VSC     : EventHandler got a msg:1
+11-08 00:32:23.831  3518  3518 D VSC     : VSC_MESSAGE_SET_OUTPUT_REGION_END
+11-08 00:32:23.839   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:23.856   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:24.062   459   459 I perfetto: probes_producer.cc:329  Producer stop (id=391)
+11-08 00:32:24.064   463   463 I perfetto: ng_service_impl.cc:1948 Tracing session 391 ended, total sessions:4
+11-08 00:32:24.181  2171  2171 I DashboardReclaimer: Reclaim attempt=1 state=3 showCard=true homeDone=false
+11-08 00:32:24.183   703   744 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 }
+11-08 00:32:24.183   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:24.183   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:24.184   703   744 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-08 00:32:24.187   512   651 D VSCControl: Scaler notify video0 mute off
+11-08 00:32:24.187   512   651 I VSCControl: VSC mute callback: wId=0, mute=0
+11-08 00:32:24.187   382   538 D RtkVSC  : VSCCListener notify!!
+11-08 00:32:24.187   382   538 D RtkVSC  : RtkVSC notify!!
+11-08 00:32:24.187   382  3332 D RtkVSC  : VSCCListener notify!!
+11-08 00:32:24.187   382  3332 D RtkVSC  : RtkVSC notify!!
+11-08 00:32:24.189   703  2998 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=dev.plume/.MainActivity} from uid 10060
+11-08 00:32:24.189   703  2998 W ActivityTaskManager: Background activity start [callingPackage: com.custom.vox.homemonitor; callingUid: 10060; isCallingUidForeground: false; callingUidHasAnyVisibleWindow: false; callingUidProcState: BOUND_FOREGROUND_SERVICE; isCallingUidPersistentSystemProcess: false; realCallingUid: 10060; isRealCallingUidForeground: false; realCallingUidHasAnyVisibleWindow: false; realCallingUidProcState: BOUND_FOREGROUND_SERVICE; isRealCallingUidPersistentSystemProcess: false; originatingPendingIntent: null; isBgStartWhitelisted: false; intent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=dev.plume/.MainActivity }; callerApp: ProcessRecord{6841255 2171:com.custom.vox.homemonitor/u0a60}]
+11-08 00:32:24.190  3518  3571 V VSC-JNI : notify: msg:0, ext1:0, ext2:0
+11-08 00:32:24.190  3518  3571 D VSC-JNI : VSC_MESSAGE_MUTE
+11-08 00:32:24.190  3518  3571 V VSC     : postEventFromNative got msg:0, arg1:0, arg2:0
+11-08 00:32:24.190  3518  3571 V VSC     : postEventFromNative sendMessage to EventHandler
+11-08 00:32:24.190  3518  3518 V VSC     : EventHandler got a msg:0
+11-08 00:32:24.190  3518  3518 E VSC     : Unknown message type 0
+11-08 00:32:24.191   703  2998 E ActivityTaskManager: Abort background activity starts from 10060
+11-08 00:32:24.191   703   744 D EventSequenceValidator: onIntentFailed during UNKNOWN.
+11-08 00:32:24.191   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentFailed(EventSequenceValidator.java:130)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentFailed(LaunchObserverRegistryImpl.java:147)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$KukKmVpn5W_1xSV6Dnp8wW2H2Ks(Unknown Source:0)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$KukKmVpn5W_1xSV6Dnp8wW2H2Ks.accept(Unknown Source:2)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:264)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:24.191   703   744 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-08 00:32:24.502  2171  2171 I DashboardReclaimer: Reclaim attempt=2 state=3 showCard=true homeDone=true
+11-08 00:32:24.504   703   744 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity }
+11-08 00:32:24.504   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:24.504   703   744 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-08 00:32:24.505   703  2998 I ActivityTaskManager: START u0 {flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity} from uid 10060
+11-08 00:32:24.506   703  2998 W ActivityTaskManager: Background activity start [callingPackage: com.custom.vox.homemonitor; callingUid: 10060; isCallingUidForeground: false; callingUidHasAnyVisibleWindow: false; callingUidProcState: BOUND_FOREGROUND_SERVICE; isCallingUidPersistentSystemProcess: false; realCallingUid: 10060; isRealCallingUidForeground: false; realCallingUidHasAnyVisibleWindow: false; realCallingUidProcState: BOUND_FOREGROUND_SERVICE; isRealCallingUidPersistentSystemProcess: false; originatingPendingIntent: null; isBgStartWhitelisted: false; intent: Intent { flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity }; callerApp: ProcessRecord{6841255 2171:com.custom.vox.homemonitor/u0a60}]
+11-08 00:32:24.507   463   463 I perfetto: ing_service_impl.cc:758 Configured tracing session 396, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:5, uid:1071 session name: ""
+11-08 00:32:24.507   459   459 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=396)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: onIntentFailed during UNKNOWN.
+11-08 00:32:24.510   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentFailed(EventSequenceValidator.java:130)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentFailed(LaunchObserverRegistryImpl.java:147)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$KukKmVpn5W_1xSV6Dnp8wW2H2Ks(Unknown Source:0)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$KukKmVpn5W_1xSV6Dnp8wW2H2Ks.accept(Unknown Source:2)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:264)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:24.510   703   744 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-08 00:32:25.016   703  1570 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+11-08 00:32:25.060   459   459 I perfetto: probes_producer.cc:329  Producer stop (id=392)
+11-08 00:32:25.063   463   463 I perfetto: ng_service_impl.cc:1948 Tracing session 392 ended, total sessions:4
+11-08 00:32:25.178  2171  2171 I DashboardReclaimer: Reclaim attempt=3 state=3 showCard=true homeDone=true
+11-08 00:32:25.181   703  1873 I ActivityTaskManager: START u0 {flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity} from uid 10060
+11-08 00:32:25.181   703   744 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity }
+11-08 00:32:25.181   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:25.181   703   744 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-08 00:32:25.182   703  1873 W ActivityTaskManager: Background activity start [callingPackage: com.custom.vox.homemonitor; callingUid: 10060; isCallingUidForeground: false; callingUidHasAnyVisibleWindow: false; callingUidProcState: BOUND_FOREGROUND_SERVICE; isCallingUidPersistentSystemProcess: false; realCallingUid: 10060; isRealCallingUidForeground: false; realCallingUidHasAnyVisibleWindow: false; realCallingUidProcState: BOUND_FOREGROUND_SERVICE; isRealCallingUidPersistentSystemProcess: false; originatingPendingIntent: null; isBgStartWhitelisted: false; intent: Intent { flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity }; callerApp: ProcessRecord{6841255 2171:com.custom.vox.homemonitor/u0a60}]
+11-08 00:32:25.184   703   744 D EventSequenceValidator: onIntentFailed during UNKNOWN.
+11-08 00:32:25.184   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentFailed(EventSequenceValidator.java:130)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentFailed(LaunchObserverRegistryImpl.java:147)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$KukKmVpn5W_1xSV6Dnp8wW2H2Ks(Unknown Source:0)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$KukKmVpn5W_1xSV6Dnp8wW2H2Ks.accept(Unknown Source:2)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:264)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:25.184   703   744 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-08 00:32:25.185   463   463 I perfetto: ing_service_impl.cc:758 Configured tracing session 397, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:5, uid:1071 session name: ""
+11-08 00:32:25.185   459   459 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=397)
+11-08 00:32:25.540   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:25.622   364   416 I chatty  : uid=1000(system) HwBinder:364_2 identical 5 lines
+11-08 00:32:25.639   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:25.642   512   691 W CI      : [CI+] WAR: [STB_CIModuleDetected:223] Still Force CAM Absent(47)!
+11-08 00:32:25.656   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:25.772   364   416 I chatty  : uid=1000(system) HwBinder:364_2 identical 7 lines
+11-08 00:32:25.789   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:25.792   703  1045 E WifiVendorHal: getWifiLinkLayerStats_1_3_Internal(l.973) failed {.code = ERROR_UNKNOWN, .description = unknown error}
+11-08 00:32:25.806   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.039   364   416 I chatty  : uid=1000(system) HwBinder:364_2 identical 14 lines
+11-08 00:32:26.055   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.062   459   459 I perfetto: probes_producer.cc:329  Producer stop (id=393)
+11-08 00:32:26.068   463   463 I perfetto: ng_service_impl.cc:1948 Tracing session 393 ended, total sessions:4
+11-08 00:32:26.072   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.156   364   416 I chatty  : uid=1000(system) HwBinder:364_2 identical 5 lines
+11-08 00:32:26.172   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.181  2171  2171 I DashboardReclaimer: Reclaim attempt=4 state=3 showCard=true homeDone=true
+11-08 00:32:26.183   703   744 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity }
+11-08 00:32:26.183   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:26.183   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:26.183   703  1873 I ActivityTaskManager: START u0 {flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity} from uid 10060
+11-08 00:32:26.183   703   744 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-08 00:32:26.184   703  1873 W ActivityTaskManager: Background activity start [callingPackage: com.custom.vox.homemonitor; callingUid: 10060; isCallingUidForeground: false; callingUidHasAnyVisibleWindow: false; callingUidProcState: BOUND_FOREGROUND_SERVICE; isCallingUidPersistentSystemProcess: false; realCallingUid: 10060; isRealCallingUidForeground: false; realCallingUidHasAnyVisibleWindow: false; realCallingUidProcState: BOUND_FOREGROUND_SERVICE; isRealCallingUidPersistentSystemProcess: false; originatingPendingIntent: null; isBgStartWhitelisted: false; intent: Intent { flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity }; callerApp: ProcessRecord{6841255 2171:com.custom.vox.homemonitor/u0a60}]
+11-08 00:32:26.186   463   463 I perfetto: ing_service_impl.cc:758 Configured tracing session 398, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:5, uid:1071 session name: ""
+11-08 00:32:26.186   459   459 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=398)
+11-08 00:32:26.189   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.190   703   744 D EventSequenceValidator: onIntentFailed during UNKNOWN.
+11-08 00:32:26.190   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentFailed(EventSequenceValidator.java:130)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentFailed(LaunchObserverRegistryImpl.java:147)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$KukKmVpn5W_1xSV6Dnp8wW2H2Ks(Unknown Source:0)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$KukKmVpn5W_1xSV6Dnp8wW2H2Ks.accept(Unknown Source:2)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:264)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:26.190   703   744 D EventSequenceValidator: dec AccIntentStartedEvents to 1
+11-08 00:32:26.206   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.389   364   416 I chatty  : uid=1000(system) HwBinder:364_2 identical 11 lines
+11-08 00:32:26.406   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.408   459   459 I perfetto: probes_producer.cc:329  Producer stop (id=394)
+11-08 00:32:26.411   463   463 I perfetto: ng_service_impl.cc:1948 Tracing session 394 ended, total sessions:4
+11-08 00:32:26.422   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.438  1276  1977 D LoungeService: New command: 
+11-08 00:32:26.438  1276  1977 D LoungeService: 18
+11-08 00:32:26.438  1276  1977 D LoungeService: [[13,["pause"]]
+11-08 00:32:26.438  1276  1977 D LoungeService: ]
+11-08 00:32:26.439   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.441  1276  1977 D JsonPathTypeAdapter: CommandItem: Path not found: $[1][1].key
+11-08 00:32:26.444  1276  1977 D JsonPathTypeAdapter: CommandItem: Path not found: $[1][1]
+11-08 00:32:26.446  1276  1977 I chatty  : uid=10059(org.smarttube.stable) RxNewThreadSche identical 3 lines
+11-08 00:32:26.447  1276  1977 D JsonPathTypeAdapter: CommandItem: Path not found: $[1][1]
+11-08 00:32:26.447  1276  1276 D RemoteController: Is remote connected: true, command type: 3
+11-08 00:32:26.456   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.468  1276  2033 I AudioTrack: calling pause
+11-08 00:32:26.468  1276  1276 D VideoStateController: setPlayEnabled false
+11-08 00:32:26.468  1276  1276 D ScreensaverManager: Enable screensaver
+11-08 00:32:26.468  1276  1276 D ScreensaverManager: Disable screensaver
+11-08 00:32:26.469  1276  2900 D LoungeService: Post onStateChange pos: 6893, dur: 5411000, state: 2...
+11-08 00:32:26.472   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.474  1276  1276 D ScreensaverManager: Stopping auto hide ui timer...
+11-08 00:32:26.475  1276  2896 D LoungeService: Post onStateChange pos: 6893, dur: 5411000, state: 2...
+11-08 00:32:26.489   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.506   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:26.552  1276  1276 D PlayerUIController: Starting auto hide ui timer...
+11-08 00:32:26.552  1276  1276 D PlayerUIController: Stopping auto hide ui timer...
+11-08 00:32:26.639   386   517 W APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+11-08 00:32:26.639   386   517 W APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+11-08 00:32:26.639   703  2998 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-08 00:32:26.640   386   517 W AudioFlinger: moveEffectChain_l() effect chain for session 0 not on source thread 0xb28e4030
+11-08 00:32:26.712  1276  2900 W System.err: java.io.InterruptedIOException: interrupted
+11-08 00:32:26.713  1276  2900 W System.err: 	at okio.Timeout.throwIfReached(Timeout.kt:98)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okio.OutputStreamSink.write(JvmOkio.kt:53)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okio.AsyncTimeout$sink$1.write(AsyncTimeout.kt:99)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okio.RealBufferedSink.flush(RealBufferedSink.kt:267)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http1.Http1Codec.finishRequest(Http1Codec.java:166)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:84)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:127)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:26.713  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper.addCommonHeaders$lambda$4(RetrofitOkHttpHelper.kt:103)
+11-08 00:32:26.713  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper.$r8$lambda$sA6HJyjQ7aEKhk32Tqits-NlQ5I(Unknown Source:0)
+11-08 00:32:26.713  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper$$ExternalSyntheticLambda0.intercept(Unknown Source:0)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.713  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.sharedutils.okhttp.interceptors.UnzippingInterceptor.intercept(UnzippingInterceptor.java:28)
+11-08 00:32:26.714  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.714  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:26.714  1276  2900 W System.err: 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:257)
+11-08 00:32:26.714  1276  2900 W System.err: 	at okhttp3.RealCall.execute(RealCall.java:93)
+11-08 00:32:26.714  1276  2900 W System.err: 	at retrofit2.OkHttpCall.execute(OkHttpCall.java:186)
+11-08 00:32:26.714  1276  2900 W System.err: 	at retrofit2.ExecutorCallAdapterFactory$ExecutorCallbackCall.execute(ExecutorCallAdapterFactory.java:92)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.getResponse(RetrofitHelper.java:118)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:99)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:83)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:79)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.youtubeapi.lounge.LoungeService.postCommand(LoungeService.java:399)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.youtubeapi.lounge.LoungeService.postStateChange(LoungeService.java:274)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.youtubeapi.service.YouTubeRemoteControlService.lambda$postStateChangeObserve$3$com-liskovsoft-youtubeapi-service-YouTubeRemoteControlService(YouTubeRemoteControlService.java:61)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.youtubeapi.service.YouTubeRemoteControlService$$ExternalSyntheticLambda2.run(Unknown Source:8)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper.lambda$fromRunnable$13(RxHelper.java:306)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper$$ExternalSyntheticLambda1.subscribe(Unknown Source:2)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper.lambda$wrapOnSubscribe$16(RxHelper.java:396)
+11-08 00:32:26.714  1276  2900 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper$$ExternalSyntheticLambda6.subscribe(Unknown Source:2)
+11-08 00:32:26.714  1276  2900 W System.err: 	at io.reactivex.internal.operators.observable.ObservableCreate.subscribeActual(ObservableCreate.java:40)
+11-08 00:32:26.714  1276  2900 W System.err: 	at io.reactivex.Observable.subscribe(Observable.java:12284)
+11-08 00:32:26.714  1276  2900 W System.err: 	at io.reactivex.internal.operators.observable.ObservableSubscribeOn$SubscribeTask.run(ObservableSubscribeOn.java:96)
+11-08 00:32:26.714  1276  2900 W System.err: 	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+11-08 00:32:26.714  1276  2900 W System.err: 	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+11-08 00:32:26.715  1276  2900 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-08 00:32:26.715  1276  2900 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-08 00:32:26.715  1276  2900 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-08 00:32:26.715  1276  2900 W System.err: 	at java.lang.Thread.run(Thread.java:923)
+11-08 00:32:26.715  1276  2900 W System.err: java.lang.IllegalStateException: java.io.InterruptedIOException: interrupted
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.getResponse(RetrofitHelper.java:127)
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:99)
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:83)
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.get(RetrofitHelper.java:79)
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.youtubeapi.lounge.LoungeService.postCommand(LoungeService.java:399)
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.youtubeapi.lounge.LoungeService.postStateChange(LoungeService.java:274)
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.youtubeapi.service.YouTubeRemoteControlService.lambda$postStateChangeObserve$3$com-liskovsoft-youtubeapi-service-YouTubeRemoteControlService(YouTubeRemoteControlService.java:61)
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.youtubeapi.service.YouTubeRemoteControlService$$ExternalSyntheticLambda2.run(Unknown Source:8)
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper.lambda$fromRunnable$13(RxHelper.java:306)
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper$$ExternalSyntheticLambda1.subscribe(Unknown Source:2)
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper.lambda$wrapOnSubscribe$16(RxHelper.java:396)
+11-08 00:32:26.715  1276  2900 W System.err: 	at com.liskovsoft.sharedutils.rx.RxHelper$$ExternalSyntheticLambda6.subscribe(Unknown Source:2)
+11-08 00:32:26.715  1276  2900 W System.err: 	at io.reactivex.internal.operators.observable.ObservableCreate.subscribeActual(ObservableCreate.java:40)
+11-08 00:32:26.715  1276  2900 W System.err: 	at io.reactivex.Observable.subscribe(Observable.java:12284)
+11-08 00:32:26.716  1276  2900 W System.err: 	at io.reactivex.internal.operators.observable.ObservableSubscribeOn$SubscribeTask.run(ObservableSubscribeOn.java:96)
+11-08 00:32:26.716  1276  2900 W System.err: 	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+11-08 00:32:26.716  1276  2900 W System.err: 	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+11-08 00:32:26.716  1276  2900 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-08 00:32:26.716  1276  2900 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-08 00:32:26.716  1276  2900 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-08 00:32:26.716  1276  2900 W System.err: 	at java.lang.Thread.run(Thread.java:923)
+11-08 00:32:26.716  1276  2900 W System.err: Caused by: java.io.InterruptedIOException: interrupted
+11-08 00:32:26.716  1276  2900 W System.err: 	at okio.Timeout.throwIfReached(Timeout.kt:98)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okio.OutputStreamSink.write(JvmOkio.kt:53)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okio.AsyncTimeout$sink$1.write(AsyncTimeout.kt:99)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okio.RealBufferedSink.flush(RealBufferedSink.kt:267)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http1.Http1Codec.finishRequest(Http1Codec.java:166)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:84)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:127)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.716  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:26.716  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper.addCommonHeaders$lambda$4(RetrofitOkHttpHelper.kt:103)
+11-08 00:32:26.717  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper.$r8$lambda$sA6HJyjQ7aEKhk32Tqits-NlQ5I(Unknown Source:0)
+11-08 00:32:26.717  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitOkHttpHelper$$ExternalSyntheticLambda0.intercept(Unknown Source:0)
+11-08 00:32:26.717  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.717  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:26.717  1276  2900 W System.err: 	at com.liskovsoft.sharedutils.okhttp.interceptors.UnzippingInterceptor.intercept(UnzippingInterceptor.java:28)
+11-08 00:32:26.717  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+11-08 00:32:26.717  1276  2900 W System.err: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+11-08 00:32:26.717  1276  2900 W System.err: 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:257)
+11-08 00:32:26.717  1276  2900 W System.err: 	at okhttp3.RealCall.execute(RealCall.java:93)
+11-08 00:32:26.717  1276  2900 W System.err: 	at retrofit2.OkHttpCall.execute(OkHttpCall.java:186)
+11-08 00:32:26.717  1276  2900 W System.err: 	at retrofit2.ExecutorCallAdapterFactory$ExecutorCallbackCall.execute(ExecutorCallAdapterFactory.java:92)
+11-08 00:32:26.717  1276  2900 W System.err: 	at com.liskovsoft.googlecommon.common.helpers.RetrofitHelper.getResponse(RetrofitHelper.java:118)
+11-08 00:32:26.717  1276  2900 W System.err: 	... 20 more
+11-08 00:32:27.051   703   713 I system_server: Background young concurrent copying GC freed 261700(11MB) AllocSpace objects, 27(668KB) LOS objects, 46% free, 13MB/24MB, paused 194us total 127.827ms
+11-08 00:32:27.072   364   416 W HWC_VIDEO: getChangedCompositionTypes: num elements 1 mismatches with 2
+11-08 00:32:27.177  2171  2171 I DashboardReclaimer: Reclaim attempt=5 state=2 showCard=true homeDone=true
+11-08 00:32:27.180   703  2998 I ActivityTaskManager: START u0 {flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity} from uid 10060
+11-08 00:32:27.181   703   744 D EventSequenceValidator: IntentStarted during UNKNOWN. Intent { flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity }
+11-08 00:32:27.181   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentStarted(EventSequenceValidator.java:106)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentStarted(LaunchObserverRegistryImpl.java:139)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$veRn_GhgLZLlOHOJ0ZYT6KcfYqo(Unknown Source:0)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$veRn_GhgLZLlOHOJ0ZYT6KcfYqo.accept(Unknown Source:10)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:292)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:27.181   703   744 D EventSequenceValidator: inc AccIntentStartedEvents to 2
+11-08 00:32:27.181   703  2998 W ActivityTaskManager: Background activity start [callingPackage: com.custom.vox.homemonitor; callingUid: 10060; isCallingUidForeground: false; callingUidHasAnyVisibleWindow: false; callingUidProcState: BOUND_FOREGROUND_SERVICE; isCallingUidPersistentSystemProcess: false; realCallingUid: 10060; isRealCallingUidForeground: false; realCallingUidHasAnyVisibleWindow: false; realCallingUidProcState: BOUND_FOREGROUND_SERVICE; isRealCallingUidPersistentSystemProcess: false; originatingPendingIntent: null; isBgStartWhitelisted: false; intent: Intent { flg=0x34220000 cmp=com.custom.vox.homemonitor/.MainActivity }; callerApp: ProcessRecord{6841255 2171:com.custom.vox.homemonitor/u0a60}]
+11-08 00:32:27.184   463   463 I perfetto: ing_service_impl.cc:758 Configured tracing session 399, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:5, uid:1071 session name: ""
+11-08 00:32:27.184   459   459 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=399)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: onIntentFailed during UNKNOWN.
+11-08 00:32:27.185   703   744 D EventSequenceValidator: java.lang.Throwable: EventSequenceValidator#getStackTrace
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.logWarningWithStackTrace(EventSequenceValidator.java:260)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at com.google.android.startop.iorap.EventSequenceValidator.onIntentFailed(EventSequenceValidator.java:130)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.handleOnIntentFailed(LaunchObserverRegistryImpl.java:147)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at com.android.server.wm.LaunchObserverRegistryImpl.lambda$KukKmVpn5W_1xSV6Dnp8wW2H2Ks(Unknown Source:0)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at com.android.server.wm.-$$Lambda$LaunchObserverRegistryImpl$KukKmVpn5W_1xSV6Dnp8wW2H2Ks.accept(Unknown Source:2)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:264)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:201)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:97)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at android.os.Looper.loop(Looper.java:223)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+11-08 00:32:27.185   703   744 D EventSequenceValidator: dec AccIntentStartedEvents to 1

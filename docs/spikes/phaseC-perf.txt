@@ -1,0 +1,100 @@
+=== PHASE C 2026-11-07T22:36:54Z ===
+  mCurrentFocus=Window{fa538a3 u0 com.custom.vox.homemonitor/com.custom.vox.homemonitor.MainActivity}
+  Sessions Stack - have 1 sessions:
+      package=org.smarttube.stable
+      active=true
+      state=PlaybackState {state=3, position=-90, buffered position=2560, speed=1.0, updated=85205331, actions=2360191, custom actions=[], active item id=0, error=null}
+      metadata: size=7, description=null, null, null
+-- meminfo --
+Applications Memory Usage (in Kilobytes):
+Uptime: 31957529 Realtime: 85225905
+
+** MEMINFO in pid 3708 [com.custom.vox.homemonitor] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    15828    15796        0       47    16212    30124    17194     2909
+  Dalvik Heap     4886     4848        0       74     5340     7029     3515     3514
+ Dalvik Other     2455     2036        0        9     3120                           
+        Stack      828      828        0        4      828                           
+       Ashmem        2        0        0        0       12                           
+    Other dev       17        4       12        0      272                           
+     .so mmap     7702      172      600       18    37104                           
+    .jar mmap     4291        0     1380        0    25644                           
+    .apk mmap      654        0        0        0     5976                           
+    .ttf mmap      527        0      384        0      744                           
+    .dex mmap    12465    12428       36      124    12512                           
+    .oat mmap       76        0        0        0     1816                           
+    .art mmap     5683     5304        0      335    11920                           
+   Other mmap      175        8       32        0      972                           
+      Unknown      348      320        0       15      608                           
+        TOTAL    56563    41744     2444      626    56563    37153    20709     6423
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    10152                          17260
+         Native Heap:    15796                          16212
+                Code:    15008                          84684
+               Stack:      828                            828
+            Graphics:        0                              0
+       Private Other:     2404
+              System:    12375
+             Unknown:                                    4096
+Applications Memory Usage (in Kilobytes):
+Uptime: 31958201 Realtime: 85226576
+
+** MEMINFO in pid 3797 [org.smarttube.stable] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    26447    26392        0     1898    26888    54584    30566    14688
+  Dalvik Heap    80967    80908        0      666    81440   107861    83285    24576
+ Dalvik Other     4277     3552        0       32     5372                           
+        Stack     2376     2376        0      408     2376                           
+       Ashmem      517      156        0        0      944                           
+    Other dev       18        0       16        0      276                           
+     .so mmap    20477      920    12196       23    51896                           
+    .jar mmap     3092        0      572        0    23952                           
+    .apk mmap    10806      132     3540        0    32328                           
+    .ttf mmap      292        0      176        0      460                           
+    .dex mmap    21607        8    21572        0    21712                           
+    .oat mmap     1147        0      124        0    12692                           
+    .art mmap     1885     1296        0      116     9992                           
+   Other mmap      491       12       80        0     2028                           
+      Unknown      589      568        0       32      808                           
+        TOTAL   178163   116320    38276     3175   178163   162445   113851    39264
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    82204                          91432
+         Native Heap:    26392                          26888
+                Code:    39260                         144532
+               Stack:     2376                           2376
+            Graphics:        0                              0
+       Private Other:     4364
+              System:    23567
+             Unknown:                                    7936
+-- top --
+Tasks: 321 total,   2 running, 319 sleeping,   0 stopped,   0 zombie
+  Mem:  1572864K total,  1540148K used,  33501184 free,   1880064 buffers
+ Swap:   614396K total,   404712K used,   209684K free,   376224K cached
+400%cpu  17%user   0%nice  22%sys 358%idle   0%iow   0%irq   3%sirq   0%host
+   PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+  1414 shell        20   0  11M 3.4M 2.7M R 19.4   0.2   0:00.10 top -n 1 -b
+  3797 u0_a59       20   0 2.0G 265M 144M S  5.5  17.2   0:34.89 org.smarttube.stable
+   703 system       18  -2 2.1G 131M  87M S  5.5   8.5  33:46.93 system_server
+   519 mediacodec   20   0  64M 7.4M 6.5M S  5.5   0.4   2:05.39 media.swcodec oid.media.swcodec/bin/mediaswcodec
+   512 system       20   0 156M 4.3M 3.6M S  2.7   0.2   8:15.76 tvservice
+   386 audioserver  20   0  78M 6.1M 4.4M S  2.7   0.4   3:01.46 audioserver
+   348 audioserver  20   0  52M 3.3M 2.9M S  2.7   0.2   3:04.40 android.hardware.audio.service
+  1179 u0_i9041     20   0 1.2G 101M  77M S  0.0   6.5   0:02.72 com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedPr
+  1169 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+  3957 u0_i9040     20   0 1.2G  94M  75M S  0.0   6.1   0:03.09 com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedPr
+  3935 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+  3753 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+  3747 root          0 -20    0    0    0 I  0.0   0.0   0:00.02 [kworker/u9:0]
+-- pids --
+3708
+3797

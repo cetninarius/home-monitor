@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weatherRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_glass_panel">
+
+    <!-- Expanded -->
+    <LinearLayout
+        android:id="@+id/weatherExpanded"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.08"
+            android:text="@string/weather_title"
+            android:textAllCaps="true"
+            android:textColor="@color/hm_text_secondary"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/weatherIcon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_weather_cloud" />
+
+            <TextView
+                android:id="@+id/weatherTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="sans-serif-light"
+                android:includeFontPadding="false"
+                android:textColor="@color/hm_text_primary"
+                android:textSize="36sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/weatherDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/hm_text_secondary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/weatherRain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/hm_text_muted"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/weatherStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/hm_connection_stale"
+            android:textSize="11sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Compact strip: icon + temperature -->
+    <LinearLayout
+        android:id="@+id/weatherCompact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/weatherIconCompact"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_weather_cloud" />
+
+        <TextView
+            android:id="@+id/weatherTempCompact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="sans-serif-light"
+            android:includeFontPadding="false"
+            android:textColor="@color/hm_text_primary"
+            android:textSize="22sp" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mediaSessionDiagPanel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#CC0B1220"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:visibility="gone">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/media_diag_title"
+        android:textAllCaps="true"
+        android:textColor="#9DB0C7"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/mediaSessionDiagText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="2dp"
+        android:textColor="#E8EEF7"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/mediaSessionDiagHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#8FA3B8"
+        android:textSize="12sp" />
+</LinearLayout>

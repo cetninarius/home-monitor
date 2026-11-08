@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Default: classic horizontal hero (WF1 modes). MEDIA switches to vertical via code. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nowPlayingRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_glass_panel"
+    android:clipChildren="false">
+
+    <LinearLayout
+        android:id="@+id/nowPlayingContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <FrameLayout
+            android:id="@+id/nowPlayingArtFrame"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="38">
+
+            <ImageView
+                android:id="@+id/nowPlayingArt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/hm_card_bg"
+                android:contentDescription="@string/now_playing_art_cd"
+                android:scaleType="centerCrop" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_now_playing_art_frame" />
+        </FrameLayout>
+
+        <!-- Lower / side meta panel: close lives top-end of THIS panel only -->
+        <FrameLayout
+            android:id="@+id/nowPlayingMeta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="62"
+            android:clipChildren="false">
+
+            <LinearLayout
+                android:id="@+id/nowPlayingMetaBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nowPlayingEyebrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:letterSpacing="0.14"
+                    android:paddingEnd="48dp"
+                    android:text="@string/now_playing_label"
+                    android:textAllCaps="true"
+                    android:textColor="@color/hm_text_secondary"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/nowPlayingTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-light"
+                    android:maxLines="2"
+                    android:paddingEnd="48dp"
+                    android:textColor="@color/hm_text_primary"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/nowPlayingChannel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif"
+                    android:maxLines="1"
+                    android:textColor="@color/hm_text_secondary"
+                    android:textSize="15sp" />
+
+                <ProgressBar
+                    android:id="@+id/nowPlayingProgress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="12dp"
+                    android:max="1000"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/bg_now_playing_progress" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/nowPlayingElapsed"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/hm_text_muted"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/nowPlayingDuration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/hm_text_muted"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nowPlayingControls"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/nowPlayingPrev"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/bg_now_playing_control"
+                        android:contentDescription="@string/now_playing_prev"
+                        android:focusable="true"
+                        android:nextFocusUp="@id/nowPlayingClose"
+                        android:nextFocusRight="@id/nowPlayingPlayPause"
+                        android:padding="12dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_np_prev" />
+
+                    <ImageButton
+                        android:id="@+id/nowPlayingPlayPause"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/bg_now_playing_control"
+                        android:contentDescription="@string/now_playing_play_pause"
+                        android:focusable="true"
+                        android:nextFocusUp="@id/nowPlayingClose"
+                        android:nextFocusLeft="@id/nowPlayingPrev"
+                        android:nextFocusRight="@id/nowPlayingNext"
+                        android:padding="14dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_np_pause" />
+
+                    <ImageButton
+                        android:id="@+id/nowPlayingNext"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/bg_now_playing_control"
+                        android:contentDescription="@string/now_playing_next"
+                        android:focusable="true"
+                        android:nextFocusUp="@id/nowPlayingClose"
+                        android:nextFocusLeft="@id/nowPlayingPlayPause"
+                        android:nextFocusRight="@id/nowPlayingExpand"
+                        android:padding="12dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_np_next" />
+
+                    <ImageButton
+                        android:id="@+id/nowPlayingExpand"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/bg_now_playing_control"
+                        android:contentDescription="@string/now_playing_open_smarttube"
+                        android:focusable="true"
+                        android:nextFocusUp="@id/nowPlayingClose"
+                        android:nextFocusLeft="@id/nowPlayingNext"
+                        android:padding="12dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_np_expand" />
+
+                    <TextView
+                        android:id="@+id/nowPlayingState"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/hm_accent_cyan"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/nowPlayingClose"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top|end"
+                android:background="@drawable/bg_now_playing_control"
+                android:contentDescription="@string/now_playing_close"
+                android:focusable="true"
+                android:nextFocusDown="@id/nowPlayingPlayPause"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_np_close" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

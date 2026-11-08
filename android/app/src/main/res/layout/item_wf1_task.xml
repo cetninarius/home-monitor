@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/taskCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/hm_card_gap"
+    android:background="@drawable/bg_task_card"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="@dimen/hm_card_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="20dp"
+            android:layout_height="20dp">
+
+            <ImageView
+                android:id="@+id/statusIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@null" />
+
+            <ProgressBar
+                android:id="@+id/statusSpinner"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/hm_accent_cyan"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/issueNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/hm_text_primary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/statusLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="end"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textSize="11sp"
+            android:letterSpacing="0.06" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/taskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/hm_text_primary"
+        android:textSize="@dimen/hm_task_title" />
+
+    <TextView
+        android:id="@+id/taskDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/hm_text_secondary"
+        android:textSize="@dimen/hm_task_meta"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/taskError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/hm_accent_red"
+        android:textSize="@dimen/hm_task_meta"
+        android:visibility="gone" />
+</LinearLayout>

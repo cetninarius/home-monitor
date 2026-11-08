@@ -1,0 +1,77 @@
+=== BASELINE 2026-11-07T22:10:48Z ===
+-- meminfo HM --
+Applications Memory Usage (in Kilobytes):
+Uptime: 30391056 Realtime: 83659431
+
+** MEMINFO in pid 1908 [com.custom.vox.homemonitor] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    17508    17476        0       26    17876    31500    18198     3128
+  Dalvik Heap     5567     5532        0       54     6036     6858     3429     3429
+ Dalvik Other     2608     1964        0        0     3524                           
+        Stack      744      744        0        0      744                           
+       Ashmem        2        0        0        0        8                           
+    Other dev       22        4       16        0      284                           
+     .so mmap    10268      228     2996        5    38448                           
+    .jar mmap     4708        0     2060        0    26584                           
+    .apk mmap      854        0      184        0     5324                           
+    .ttf mmap      528        0      476        0      636                           
+    .dex mmap    12560    12524       36        0    12572                           
+    .oat mmap       84        0        0        0     1864                           
+    .art mmap     5800     5504        0       43    12264                           
+   Other mmap      191        8      120        0     1028                           
+      Unknown      366      336        0        3      624                           
+        TOTAL    61941    44320     5888      131    61941    38358    21627     6557
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    11036                          18300
+         Native Heap:    17476                          17876
+                Code:    18524                          86784
+               Stack:      744                            744
+            Graphics:        0                              0
+       Private Other:     2428
+              System:    11733
+             Unknown:                                    4112
+ 
+           TOTAL PSS:    61941            TOTAL RSS:   127816       TOTAL SWAP PSS:      131
+ 
+ Objects
+               Views:      124         ViewRootImpl:        1
+-- meminfo SmartTube --
+No process found for: org.smarttube.stable
+-- top snapshot --
+Tasks: 323 total,   1 running, 322 sleeping,   0 stopped,   0 zombie
+  Mem:  1572864K total,  1512372K used,  61943808 free,   7061504 buffers
+ Swap:   614396K total,   432556K used,   181840K free,   412360K cached
+400%cpu   6%user   0%nice  18%sys 376%idle   0%iow   0%irq   0%sirq   0%host
+   PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+  1627 shell        20   0  11M 3.4M 2.7M R 21.2   0.2   0:00.09 top -n 1 -b
+   338 u0_a54       20   0 1.1G  43M  31M S  3.0   2.7   4:27.62 org.liskovsoft.androidtv.rukeyboard
+  1616 shell        20   0 9.4M 2.8M 2.4M S  0.0   0.1   0:00.01 sleep 0.7
+  1150 root          0 -20    0    0    0 I  0.0   0.0   0:00.03 [kworker/u9:3]
+  2127 root         20   0    0    0    0 I  0.0   0.0   0:00.08 [kworker/u8:4]
+  2059 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/1:1]
+  1980 root          0 -20    0    0    0 I  0.0   0.0   0:00.00 [kbase_event]
+  1908 u0_a60       10 -10 1.2G 135M  84M S  0.0   8.7   0:14.89 com.custom.vox.homemonitor
+  3849 root         20   0    0    0    0 I  0.0   0.0   0:00.05 [kworker/u8:0]
+  3528 root          0 -20    0    0    0 I  0.0   0.0   0:00.28 [kworker/u9:2]
+   660 root         20   0    0    0    0 I  0.0   0.0   0:00.04 [kworker/2:1]
+  2682 root          0 -20    0    0    0 I  0.0   0.0   0:00.67 [kworker/u9:1]
+   943 root         20   0    0    0    0 I  0.0   0.0   0:00.11 [kworker/1:2]
+   935 root         20   0    0    0    0 I  0.0   0.0   0:00.53 [kworker/0:1]
+   674 root         20   0    0    0    0 I  0.0   0.0   0:00.20 [kworker/u8:2]
+  2917 u0_a15       20   0 1.1G  55M  43M S  0.0   3.5   0:00.18 com.google.process.gapps
+  2634 u0_a19       20   0 1.2G  78M  66M S  0.0   5.0   0:14.46 com.android.vending
+  2627 root         20   0    0    0    0 I  0.0   0.0   0:00.18 [kworker/3:0]
+  1393 root         20   0    0    0    0 I  0.0   0.0   0:00.14 [kworker/2:0]
+  1280 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/0:2]
+-- cpuinfo load --
+23.53 23.69 23.65 2/1872 1648
+MemTotal:        1572864 kB
+MemFree:           59432 kB
+MemAvailable:     409452 kB
+Buffers:            6976 kB
+Cached:           412360 kB

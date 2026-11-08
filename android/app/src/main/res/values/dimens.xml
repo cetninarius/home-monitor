@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hm_screen_padding">40dp</dimen>
+    <dimen name="hm_panel_width_fraction">0.34</dimen>
+    <dimen name="hm_panel_corner">18dp</dimen>
+    <dimen name="hm_card_corner">12dp</dimen>
+    <dimen name="hm_card_padding">14dp</dimen>
+    <dimen name="hm_card_gap">8dp</dimen>
+    <dimen name="hm_clock_size">68sp</dimen>
+    <dimen name="hm_date_size">20sp</dimen>
+    <dimen name="hm_brand_size">13sp</dimen>
+    <dimen name="hm_panel_title">18sp</dimen>
+    <dimen name="hm_task_title">15sp</dimen>
+    <dimen name="hm_task_meta">12sp</dimen>
+    <dimen name="hm_focus_stroke">3dp</dimen>
+    <dimen name="hm_home_widget_height">200dp</dimen>
+    <dimen name="hm_home_widget_height_compact">140dp</dimen>
+    <!-- NP mode minimized rows under the player (must fit below NP without clipping) -->
+    <dimen name="hm_home_widget_height_snip">148dp</dimen>
+    <dimen name="hm_home_widget_height_strip">48dp</dimen>
+    <dimen name="hm_np_row_gap">6dp</dimen>
+    <dimen name="hm_np_slot_margin_top">8dp</dimen>
+    <dimen name="hm_np_grid_margin_top">8dp</dimen>
+    <dimen name="hm_widget_gap">10dp</dimen>
+    <dimen name="hm_row_gap">16dp</dimen>
+    <dimen name="hm_column_gap">20dp</dimen>
+</resources>

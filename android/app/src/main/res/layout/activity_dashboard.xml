@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_baghdad" />
+
+    <View
+        android:id="@+id/backgroundScrim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hm_bg_scrim" />
+
+    <LinearLayout
+        android:id="@+id/dashboardContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/hm_screen_padding"
+        android:weightSum="100">
+
+        <!-- Classic left column: header + optional NP hero + home body -->
+        <LinearLayout
+            android:id="@+id/leftSlot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="66"
+            android:animateLayoutChanges="false"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/hm_column_gap">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/clockContainer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/brandLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:letterSpacing="0.18"
+                        android:text="@string/brand_label"
+                        android:textAllCaps="true"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="@dimen/hm_brand_size" />
+
+                    <TextView
+                        android:id="@+id/clockText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="sans-serif-light"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/hm_text_primary"
+                        android:textSize="@dimen/hm_clock_size" />
+
+                    <TextView
+                        android:id="@+id/dateText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="@dimen/hm_date_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/networkStrip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:orientation="vertical"
+                    android:paddingTop="2dp">
+
+                    <ImageButton
+                        android:id="@+id/appearanceEntry"
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:background="@drawable/bg_appearance_entry"
+                        android:contentDescription="@string/appearance_open"
+                        android:focusable="true"
+                        android:padding="10dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_settings" />
+
+                    <TextView
+                        android:id="@+id/networkLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:letterSpacing="0.14"
+                        android:text="@string/network_label"
+                        android:textAllCaps="true"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="@dimen/hm_brand_size" />
+
+                    <TextView
+                        android:id="@+id/networkStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="sans-serif-light"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/hm_text_primary"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:id="@+id/networkDetail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="end"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/networkRouter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="end"
+                        android:textColor="@color/hm_text_muted"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Classic left-column NP hero (WORKFLOW_MEDIA). MEDIA reparents to rightRail. -->
+            <FrameLayout
+                android:id="@+id/nowPlayingSlot"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="0"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/homeBody"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:clipChildren="false"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <!-- HOME only: stacked Weather + Services -->
+                <LinearLayout
+                    android:id="@+id/railColumn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:clipChildren="false"
+                    android:orientation="vertical"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/homeGrid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="70"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/midHomeRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:clipChildren="false"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <FrameLayout
+                            android:id="@+id/calendarSlot"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="@dimen/hm_widget_gap"
+                            android:layout_weight="1"
+                            android:clipChildren="false" />
+
+                        <FrameLayout
+                            android:id="@+id/todoSlot"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/hm_widget_gap"
+                            android:layout_weight="1"
+                            android:clipChildren="false" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bottomHomeRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/hm_home_widget_height"
+                        android:layout_marginTop="@dimen/hm_row_gap"
+                        android:clipChildren="false"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <FrameLayout
+                            android:id="@+id/servicesSlot"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="@dimen/hm_widget_gap"
+                            android:layout_weight="1"
+                            android:clipChildren="false" />
+
+                        <FrameLayout
+                            android:id="@+id/weatherSlot"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="@dimen/hm_widget_gap"
+                            android:layout_weight="1"
+                            android:clipChildren="false" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <include
+                android:id="@+id/adminHintBanner"
+                layout="@layout/view_admin_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- MEDIA: vertical Now Playing lives here (slot reparented). WF1 uses rightSlot. -->
+        <LinearLayout
+            android:id="@+id/rightRail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:clipChildren="false"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+        <!-- Classic WF1 column (WORKFLOW / WORKFLOW_MEDIA) -->
+        <FrameLayout
+            android:id="@+id/rightSlot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="34"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <include layout="@layout/view_media_session_diag" />
+</FrameLayout>

@@ -1,0 +1,73 @@
+=== AFTER SWITCH TO HM 2026-11-07T22:11:30Z ===
+-- focus --
+  mCurrentFocus=Window{235bbe1 u0 com.custom.vox.homemonitor/com.custom.vox.homemonitor.MainActivity}
+  mFocusedApp=ActivityRecord{bb8b206 u0 com.custom.vox.homemonitor/.MainActivity t108}
+-- media_session --
+MEDIA SESSION SERVICE (dumpsys media_session)
+
+1 sessions listeners.
+Global priority session is null
+User Records:
+Record for full_user=0
+  Volume key long-press listener: null
+  Volume key long-press listener package: 
+  Media key listener: null
+  Media key listener package: 
+  OnMediaKeyEventDispatchedListener: added 0 listener(s)
+  OnMediaKeyEventSessionChangedListener: added 0 listener(s)
+  Last MediaButtonReceiver: null
+  Media button session is null
+  Sessions Stack - have 0 sessions:
+Audio playback (lastly played comes first)
+  uid=10026 packages=com.ecloud.eairplay 
+  uid=10059 packages=org.smarttube.stable 
+-- audio tracks smarttube --
+  AudioPlaybackConfiguration piid:15 type:android.media.SoundPool u/pid:1000/703 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  AudioPlaybackConfiguration piid:23 type:android.media.SoundPool u/pid:10041/1089 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  AudioPlaybackConfiguration piid:375 type:android.media.AudioTrack u/pid:10026/2843 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0xA00 tags= bundle=null
+-- audio focus --
+MediaFocusControl dump time: 11:11:31 PM
+
+Audio Focus stack entries (last is top of stack):
+
+
+No external focus policy
+-- smarttube process still alive? --
+1747
+-- services --
+  * ServiceRecord{73e7d82 u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.common.misc.RemoteControlService}
+    intent={cmp=org.smarttube.stable/com.liskovsoft.smartyoutubetv2.common.misc.RemoteControlService}
+    isForeground=true foregroundId=130992177 foregroundNoti=Notification(channel=org.smarttube.stable shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+  * ServiceRecord{31258a7 u0 org.smarttube.stable/org.chromium.content.app.SandboxedProcessService0:0}
+-- pip / pinned stack --
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+    mLastPausedActivity: ActivityRecord{441c4d0 u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity t110}
+    * Task{110c771 #110 visible=true type=standard mode=fullscreen translucent=false A=10059:org.smarttube.stable U=0 StackId=110 sz=1}
+      userId=0 effectiveUid=u0a59 mCallingUid=u0a59 mUserSetupComplete=true mCallingPackage=org.smarttube.stable mCallingFeatureId=null
+      affinity=10059:org.smarttube.stable
+      intent={flg=0x10000000 cmp=org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity}
+      mActivityComponent=org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity
+      Activities=[ActivityRecord{441c4d0 u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity t110}]
+      mRootProcess=ProcessRecord{5522eb9 1747:org.smarttube.stable/u0a59}
+      * Hist #0: ActivityRecord{441c4d0 u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity t110}
+          packageName=org.smarttube.stable processName=org.smarttube.stable
+          launchedFromUid=10059 launchedFromPackage=org.smarttube.stable launchedFromFeature=null userId=0
+          app=ProcessRecord{5522eb9 1747:org.smarttube.stable/u0a59}
+          Intent { flg=0x10000000 cmp=org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity }
+          rootOfTask=true task=Task{110c771 #110 visible=true type=standard mode=fullscreen translucent=false A=10059:org.smarttube.stable U=0 StackId=110 sz=1}
+          taskAffinity=10059:org.smarttube.stable
+          mActivityComponent=org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity
+          baseDir=/data/app/~~HcedUAFZnhdz4f9SykK9BA==/org.smarttube.stable-Ix_1Wb6U54ovXDLf8cagCg==/base.apk
+          dataDir=/data/user/0/org.smarttube.stable
+          windows=[Window{4faf406 u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity}]
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+      * Task{110c771 #110 visible=true type=standard mode=fullscreen translucent=false A=10059:org.smarttube.stable U=0 StackId=110 sz=1}
+        mLastOrientationSource=ActivityRecord{441c4d0 u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity t110}
+        * ActivityRecord{441c4d0 u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity t110}
+  PinnedStackController

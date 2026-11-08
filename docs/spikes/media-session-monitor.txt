@@ -1,0 +1,2 @@
+V2Monitoring session org.smarttube.stable...  available commands: play, pause, next, previous
+(q)uit: finish monitoring

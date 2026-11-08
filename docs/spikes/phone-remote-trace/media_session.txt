@@ -1,0 +1,30 @@
+===== 00:32:22 tick=1 =====
+      package=org.smarttube.stable
+      active=true
+      state=PlaybackState {state=2, position=3681, buffered position=9810, speed=0.0, updated=88517430, actions=2360191, custom actions=[], active item id=0, error=null}
+      metadata: size=7, description=Turning air into alcohol, NileRed, null
+===== 00:32:23 tick=2 =====
+      package=org.smarttube.stable
+      active=true
+      state=PlaybackState {state=3, position=3840, buffered position=36036, speed=1.0, updated=88554315, actions=2360191, custom actions=[], active item id=0, error=null}
+      metadata: size=7, description=Turning air into alcohol, NileRed, null
+===== 00:32:24 tick=3 =====
+      package=org.smarttube.stable
+      active=true
+      state=PlaybackState {state=3, position=3840, buffered position=36036, speed=1.0, updated=88554315, actions=2360191, custom actions=[], active item id=0, error=null}
+      metadata: size=7, description=Turning air into alcohol, NileRed, null
+===== 00:32:24 tick=4 =====
+      package=org.smarttube.stable
+      active=true
+      state=PlaybackState {state=3, position=3840, buffered position=36036, speed=1.0, updated=88554315, actions=2360191, custom actions=[], active item id=0, error=null}
+      metadata: size=7, description=Turning air into alcohol, NileRed, null
+===== 00:32:25 tick=5 =====
+      package=org.smarttube.stable
+      active=true
+      state=PlaybackState {state=3, position=3840, buffered position=36036, speed=1.0, updated=88554315, actions=2360191, custom actions=[], active item id=0, error=null}
+      metadata: size=7, description=Turning air into alcohol, NileRed, null
+===== 00:32:26 tick=6 =====
+      package=org.smarttube.stable
+      active=true
+      state=PlaybackState {state=2, position=6893, buffered position=39973, speed=0.0, updated=88557380, actions=2360191, custom actions=[], active item id=0, error=null}
+      metadata: size=7, description=Turning air into alcohol, NileRed, null

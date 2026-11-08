@@ -1,0 +1,13 @@
+sdk.dir=/Users/YOU/Library/Android/sdk
+# Optional: seed WF1 runtime config on first upgrade/build only (empty for beta APKs).
+# Mac LAN IP running the Home Monitor WF1 proxy (ipconfig getifaddr en0)
+wf1.proxy.baseUrl=
+# Must match HM_TOKEN on the proxy — change both sides together. Leave empty for beta.
+wf1.proxy.token=
+# Optional override of the public Sentry client DSN (never put an auth token here).
+# sentry.dsn=
+# Optional release signing (prefer env HM_STORE_FILE / HM_STORE_PASSWORD / HM_KEY_ALIAS / HM_KEY_PASSWORD).
+# hm.storeFile=
+# hm.storePassword=
+# hm.keyAlias=
+# hm.keyPassword=

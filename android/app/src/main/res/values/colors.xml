@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Neutral dark glass palette — no green-primary theme -->
+    <color name="hm_bg_scrim">#66000000</color>
+    <color name="hm_panel_bg">#CC141820</color>
+    <color name="hm_panel_border">#33FFFFFF</color>
+    <!-- Card style presets (Glass uses hm_panel_bg / hm_panel_border) -->
+    <color name="hm_panel_bg_solid">#F2141820</color>
+    <color name="hm_panel_border_solid">#55FFFFFF</color>
+    <color name="hm_panel_bg_minimal">#40101820</color>
+    <color name="hm_panel_border_minimal">#18FFFFFF</color>
+    <!-- Light veil so dashboard stays visible for live appearance preview -->
+    <color name="hm_appearance_veil">#66000000</color>
+    <color name="hm_card_bg">#99101418</color>
+    <color name="hm_card_bg_focus">#B01A222C</color>
+    <color name="hm_text_primary">#F2F4F7</color>
+    <color name="hm_text_secondary">#A8B0BC</color>
+    <color name="hm_text_muted">#6B7380</color>
+    <color name="hm_accent_cyan">#4FC3F7</color>
+    <color name="hm_accent_cyan_dim">#334FC3F7</color>
+    <color name="hm_accent_purple">#9B8CFF</color>
+    <color name="hm_accent_purple_dim">#339B8CFF</color>
+    <color name="hm_accent_red">#EF5350</color>
+    <color name="hm_accent_red_dim">#40EF5350</color>
+    <color name="hm_accent_red_border">#CCEF5350</color>
+    <color name="hm_focus_ring">#80FFFFFF</color>
+    <color name="hm_divider">#1AFFFFFF</color>
+    <color name="hm_connection_ok">#4FC3F7</color>
+    <color name="hm_connection_stale">#FFB74D</color>
+    <color name="hm_connection_down">#EF5350</color>
+    <!-- Services: restrained UP green (not a theme primary) -->
+    <color name="hm_status_up">#66BB6A</color>
+    <color name="hm_status_up_dim">#3366BB6A</color>
+    <color name="hm_status_paused">#FFB74D</color>
+    <color name="hm_status_unknown">#6B7380</color>
+</resources>

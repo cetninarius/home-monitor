@@ -1,0 +1,45 @@
+11-07 23:39:27.655  3404  1110 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:39:27.655  3404  1110 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=long=0
+11-07 23:39:27.655  3404  1110 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=long=0
+11-07 23:39:27.655  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=long=0
+11-07 23:39:27.655  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=long=0
+11-07 23:39:27.669  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=213000
+11-07 23:39:27.669  3404  1110 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=dQw4w9WgXcQ
+11-07 23:39:27.670  3404  1110 I MediaSessionDiag: meta[android.media.metadata.TITLE]=long=0
+11-07 23:39:27.670  3404  1110 I MediaSessionDiag: state=PLAYING title=null artist=null dur=213000 pos=10328 est=10351 art=null
+11-07 23:39:28.899  3404  1110 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:39:28.899  3404  1110 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=long=0
+11-07 23:39:28.899  3404  1110 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=long=0
+11-07 23:39:28.899  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=long=0
+11-07 23:39:28.900  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=long=0
+11-07 23:39:28.903  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=213000
+11-07 23:39:28.903  3404  1110 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=dQw4w9WgXcQ
+11-07 23:39:28.903  3404  1110 I MediaSessionDiag: meta[android.media.metadata.TITLE]=long=0
+11-07 23:39:28.903  3404  1110 I MediaSessionDiag: state=PLAYING title=null artist=null dur=213000 pos=11578 est=11584 art=null
+11-07 23:39:29.897  3404  1110 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:39:29.897  3404  1110 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=long=0
+11-07 23:39:29.897  3404  1110 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=long=0
+11-07 23:39:29.897  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=long=0
+11-07 23:39:29.897  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=long=0
+11-07 23:39:29.903  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=213000
+11-07 23:39:29.903  3404  1110 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=dQw4w9WgXcQ
+11-07 23:39:29.903  3404  1110 I MediaSessionDiag: meta[android.media.metadata.TITLE]=long=0
+11-07 23:39:29.903  3404  1110 I MediaSessionDiag: state=PLAYING title=null artist=null dur=213000 pos=12576 est=12584 art=null
+11-07 23:39:30.899  3404  1110 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:39:30.899  3404  1110 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=long=0
+11-07 23:39:30.899  3404  1110 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=long=0
+11-07 23:39:30.899  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=long=0
+11-07 23:39:30.899  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=long=0
+11-07 23:39:30.903  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=213000
+11-07 23:39:30.903  3404  1110 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=dQw4w9WgXcQ
+11-07 23:39:30.903  3404  1110 I MediaSessionDiag: meta[android.media.metadata.TITLE]=long=0
+11-07 23:39:30.903  3404  1110 I MediaSessionDiag: state=PLAYING title=null artist=null dur=213000 pos=13577 est=13584 art=null
+11-07 23:39:31.899  3404  1110 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:39:31.899  3404  1110 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=long=0
+11-07 23:39:31.899  3404  1110 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=long=0
+11-07 23:39:31.899  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=long=0
+11-07 23:39:31.899  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=long=0
+11-07 23:39:31.904  3404  1110 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=213000
+11-07 23:39:31.904  3404  1110 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=dQw4w9WgXcQ
+11-07 23:39:31.904  3404  1110 I MediaSessionDiag: meta[android.media.metadata.TITLE]=long=0
+11-07 23:39:31.904  3404  1110 I MediaSessionDiag: state=PLAYING title=null artist=null dur=213000 pos=14578 est=14585 art=null

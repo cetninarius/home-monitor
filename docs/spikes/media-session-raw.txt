@@ -1,0 +1,32 @@
+MEDIA SESSION SERVICE (dumpsys media_session)
+
+1 sessions listeners.
+Global priority session is null
+User Records:
+Record for full_user=0
+  Volume key long-press listener: null
+  Volume key long-press listener package: 
+  Media key listener: null
+  Media key listener package: 
+  OnMediaKeyEventDispatchedListener: added 0 listener(s)
+  OnMediaKeyEventSessionChangedListener: added 0 listener(s)
+  Last MediaButtonReceiver: null
+  Media button session is org.smarttube.stable/org.smarttube.stable (userId=0)
+  Sessions Stack - have 1 sessions:
+    org.smarttube.stable org.smarttube.stable/org.smarttube.stable (userId=0)
+      ownerPid=1747, ownerUid=10059, userId=0
+      package=org.smarttube.stable
+      launchIntent=null
+      mediaButtonReceiver=null
+      active=true
+      flags=3
+      rating type=0
+      controllers: 1
+      state=PlaybackState {state=3, position=-100, buffered position=2792, speed=1.0, updated=83695385, actions=2360191, custom actions=[], active item id=0, error=null}
+      audioAttrs=AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null
+      volumeType=1, controlType=2, max=0, current=0
+      metadata: size=7, description=Neil deGrasse Tyson: The Whistleblowers Were Right About Aliens, The Diary Of A CEO and StarTalk, null
+      queueTitle=null, size=0
+Audio playback (lastly played comes first)
+  uid=10059 packages=org.smarttube.stable 
+  uid=10026 packages=com.ecloud.eairplay 

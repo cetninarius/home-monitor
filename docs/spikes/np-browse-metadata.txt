@@ -1,0 +1,59 @@
+11-07 23:43:25.048  2974   923 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:43:25.048  2974   923 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=https://i.ytimg.com/vi/MiUHjLxm3V0/hq720.jpg?sqp=-oaymwEVCIAFEOgCSFDyq4qpAwcVAACIQhgB&rs=AOn4CLBoFKBgUuI9PdoHYEuCUQyIjlWVVA
+11-07 23:43:25.048  2974   923 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=Veritasium
+11-07 23:43:25.048  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=Veritasium • 65M views • 10 months ago
+11-07 23:43:25.048  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:25.079  2974   923 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=3300000
+11-07 23:43:25.079  2974   923 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=MiUHjLxm3V0
+11-07 23:43:25.079  2974   923 I MediaSessionDiag: meta[android.media.metadata.TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:26.042  2974   923 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:43:26.042  2974   923 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=https://i.ytimg.com/vi/MiUHjLxm3V0/hq720.jpg?sqp=-oaymwEVCIAFEOgCSFDyq4qpAwcVAACIQhgB&rs=AOn4CLBoFKBgUuI9PdoHYEuCUQyIjlWVVA
+11-07 23:43:26.043  2974   923 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=Veritasium
+11-07 23:43:26.043  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=Veritasium • 65M views • 10 months ago
+11-07 23:43:26.043  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:26.045  2974   923 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=3300000
+11-07 23:43:26.045  2974   923 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=MiUHjLxm3V0
+11-07 23:43:26.045  2974   923 I MediaSessionDiag: meta[android.media.metadata.TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:27.067  2974   923 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:43:27.068  2974   923 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=https://i.ytimg.com/vi/MiUHjLxm3V0/hq720.jpg?sqp=-oaymwEVCIAFEOgCSFDyq4qpAwcVAACIQhgB&rs=AOn4CLBoFKBgUuI9PdoHYEuCUQyIjlWVVA
+11-07 23:43:27.068  2974   923 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=Veritasium
+11-07 23:43:27.068  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=Veritasium • 65M views • Published on Dec 31, 2025
+11-07 23:43:27.068  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:27.071  2974   923 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=3300000
+11-07 23:43:27.072  2974   923 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=MiUHjLxm3V0
+11-07 23:43:27.072  2974   923 I MediaSessionDiag: meta[android.media.metadata.TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:28.071  2974   923 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:43:28.071  2974   923 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=https://i.ytimg.com/vi/MiUHjLxm3V0/hq720.jpg?sqp=-oaymwEVCIAFEOgCSFDyq4qpAwcVAACIQhgB&rs=AOn4CLBoFKBgUuI9PdoHYEuCUQyIjlWVVA
+11-07 23:43:28.072  2974   923 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=Veritasium
+11-07 23:43:28.072  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=Veritasium • 65M views • Published on Dec 31, 2025
+11-07 23:43:28.073  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:28.082  2974   923 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=3300000
+11-07 23:43:28.083  2974   923 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=MiUHjLxm3V0
+11-07 23:43:28.083  2974   923 I MediaSessionDiag: meta[android.media.metadata.TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:29.070  2974   923 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:43:29.070  2974   923 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=https://i.ytimg.com/vi/MiUHjLxm3V0/hq720.jpg?sqp=-oaymwEVCIAFEOgCSFDyq4qpAwcVAACIQhgB&rs=AOn4CLBoFKBgUuI9PdoHYEuCUQyIjlWVVA
+11-07 23:43:29.070  2974   923 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=Veritasium
+11-07 23:43:29.070  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=Veritasium • 65M views • Published on Dec 31, 2025
+11-07 23:43:29.070  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:29.074  2974   923 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=3300000
+11-07 23:43:29.074  2974   923 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=MiUHjLxm3V0
+11-07 23:43:29.074  2974   923 I MediaSessionDiag: meta[android.media.metadata.TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:29.074  2974   923 I MediaSessionDiag: state=PLAYING title=The Closest Thing We Have to Alien Technology artist=Veritasium dur=3300000 pos=796 est=802 art=https://i.ytimg.com/vi/MiUHjLxm3V0/hq720.jpg?sqp=-oaymwEVCIAFEOgCSFDyq4qpAwcVAACIQhgB&rs=AOn4CLBoFKBgUuI9PdoHYEuCUQyIjlWVVA
+11-07 23:43:30.070  2974   923 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:43:30.070  2974   923 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=https://i.ytimg.com/vi/MiUHjLxm3V0/hq720.jpg?sqp=-oaymwEVCIAFEOgCSFDyq4qpAwcVAACIQhgB&rs=AOn4CLBoFKBgUuI9PdoHYEuCUQyIjlWVVA
+11-07 23:43:30.070  2974   923 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=Veritasium
+11-07 23:43:30.070  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=Veritasium • 65M views • Published on Dec 31, 2025
+11-07 23:43:30.071  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:30.076  2974   923 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=3300000
+11-07 23:43:30.076  2974   923 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=MiUHjLxm3V0
+11-07 23:43:30.076  2974   923 I MediaSessionDiag: meta[android.media.metadata.TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:30.076  2974   923 I MediaSessionDiag: state=PLAYING title=The Closest Thing We Have to Alien Technology artist=Veritasium dur=3300000 pos=1797 est=1804 art=https://i.ytimg.com/vi/MiUHjLxm3V0/hq720.jpg?sqp=-oaymwEVCIAFEOgCSFDyq4qpAwcVAACIQhgB&rs=AOn4CLBoFKBgUuI9PdoHYEuCUQyIjlWVVA
+11-07 23:43:31.071  2974   923 I MediaSessionDiag: metadataKeys=[android.media.metadata.ALBUM_ART_URI, android.media.metadata.ARTIST, android.media.metadata.DISPLAY_SUBTITLE, android.media.metadata.DISPLAY_TITLE, android.media.metadata.DURATION, android.media.metadata.MEDIA_ID, android.media.metadata.TITLE]
+11-07 23:43:31.071  2974   923 I MediaSessionDiag: meta[android.media.metadata.ALBUM_ART_URI]=https://i.ytimg.com/vi/MiUHjLxm3V0/hq720.jpg?sqp=-oaymwEVCIAFEOgCSFDyq4qpAwcVAACIQhgB&rs=AOn4CLBoFKBgUuI9PdoHYEuCUQyIjlWVVA
+11-07 23:43:31.071  2974   923 I MediaSessionDiag: meta[android.media.metadata.ARTIST]=Veritasium
+11-07 23:43:31.071  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_SUBTITLE]=Veritasium • 65M views • Published on Dec 31, 2025
+11-07 23:43:31.071  2974   923 I MediaSessionDiag: meta[android.media.metadata.DISPLAY_TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:31.074  2974   923 I MediaSessionDiag: meta[android.media.metadata.DURATION]=long=3300000
+11-07 23:43:31.074  2974   923 I MediaSessionDiag: meta[android.media.metadata.MEDIA_ID]=MiUHjLxm3V0
+11-07 23:43:31.074  2974   923 I MediaSessionDiag: meta[android.media.metadata.TITLE]=The Closest Thing We Have to Alien Technology
+11-07 23:43:31.074  2974   923 I MediaSessionDiag: state=PLAYING title=The Closest Thing We Have to Alien Technology artist=Veritasium dur=3300000 pos=2798 est=2802 art=https://i.ytimg.com/vi/MiUHjLxm3V0/hq720.jpg?sqp=-oaymwEVCIAFEOgCSFDyq4qpAwcVAACIQhgB&rs=AOn4CLBoFKBgUuI9PdoHYEuCUQyIjlWVVA

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home Monitor Admin</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="top">
+      <div>
+        <p class="eyebrow">Home Monitor</p>
+        <h1>Local Admin</h1>
+      </div>
+      <button id="logoutBtn" class="ghost" hidden>Log out</button>
+    </header>
+
+    <section id="loginView" class="card">
+      <h2>Sign in</h2>
+      <p class="muted">Enter the admin token shown on the TV (or from setup). It is never stored in this page’s source.</p>
+      <label>
+        Admin token
+        <input id="tokenInput" type="password" autocomplete="current-password" placeholder="Paste token" />
+      </label>
+      <p id="loginError" class="error" hidden></p>
+      <button id="loginBtn" class="primary">Continue</button>
+    </section>
+
+    <section id="mainView" hidden>
+      <nav class="tabs">
+        <button class="tab active" data-tab="todo">To-do</button>
+        <button class="tab" data-tab="calendar">Calendar</button>
+        <button class="tab" data-tab="services">Services</button>
+        <button class="tab" data-tab="appearance">Appearance</button>
+      </nav>
+
+      <div id="todoPanel" class="panel">
+        <form id="taskForm" class="card form-grid">
+          <h2>New task</h2>
+          <label>Title <input id="taskTitle" required maxlength="200" /></label>
+          <label>Description <input id="taskDesc" maxlength="400" /></label>
+          <label>Priority
+            <select id="taskPriority">
+              <option value="high">High</option>
+              <option value="normal" selected>Normal</option>
+              <option value="low">Low</option>
+            </select>
+          </label>
+          <label>Due date <input id="taskDue" type="date" /></label>
+          <button type="submit" class="primary">Add task</button>
+        </form>
+        <div class="card">
+          <h2>Pending</h2>
+          <div id="pendingList" class="list"></div>
+          <h2 class="spaced">Completed</h2>
+          <div id="completedList" class="list"></div>
+        </div>
+      </div>
+
+      <div id="calendarPanel" class="panel" hidden>
+        <form id="eventForm" class="card form-grid">
+          <h2>New event</h2>
+          <label>Title <input id="eventTitle" required maxlength="200" /></label>
+          <label>Date <input id="eventDate" type="date" required /></label>
+          <label class="check"><input id="eventAllDay" type="checkbox" /> All day</label>
+          <label>Start <input id="eventStart" type="time" /></label>
+          <label>End <input id="eventEnd" type="time" /></label>
+          <label>Description <input id="eventDesc" maxlength="400" /></label>
+          <button type="submit" class="primary">Add event</button>
+        </form>
+        <div class="card">
+          <h2>Upcoming</h2>
+          <div id="eventList" class="list"></div>
+        </div>
+      </div>
+
+      <div id="servicesPanel" class="panel" hidden>
+        <form id="uptimeForm" class="card form-grid">
+          <h2>UptimeRobot</h2>
+          <p class="muted">API keys are never written from this page alone — the TV remote must approve within 2 minutes. The key is never returned by GET.</p>
+          <p id="uptimeStatus" class="muted"></p>
+          <p id="uptimePending" class="muted" hidden></p>
+          <label>API key <input id="uptimeApiKey" type="password" autocomplete="off" placeholder="UptimeRobot API key" /></label>
+          <div class="row-actions">
+            <button type="button" id="uptimeSubmitKey" class="primary">Submit key for TV approval</button>
+            <button type="button" id="uptimeTest" class="ghost">Test connection</button>
+            <button type="button" id="uptimeList" class="ghost">List monitors</button>
+          </div>
+          <div id="uptimeMonitorList" class="list"></div>
+          <button type="submit" class="primary">Save selection</button>
+          <button type="button" id="uptimeClear" class="ghost">Disconnect</button>
+        </form>
+        <form id="httpForm" class="card form-grid">
+          <h2>Direct HTTP</h2>
+          <p class="muted">Up to 5 endpoints. No custom headers or auth. Home LAN (RFC1918) allowed; cloud metadata blocked.</p>
+          <label>Name <input id="httpName" maxlength="80" placeholder="Router" /></label>
+          <label>URL <input id="httpUrl" required placeholder="http://192.168.0.1/" /></label>
+          <button type="submit" class="primary">Add endpoint</button>
+          <button type="button" id="httpTest" class="ghost">Test URL</button>
+          <p id="httpTestResult" class="muted"></p>
+          <div id="httpList" class="list"></div>
+        </form>
+        <div class="card form-grid">
+          <h2>Dashboard widgets</h2>
+          <label class="check"><input id="dashServices" type="checkbox" /> Service Monitoring widget</label>
+          <label class="check"><input id="dashNowPlaying" type="checkbox" /> Now Playing widget</label>
+          <label class="check"><input id="dashWf1" type="checkbox" /> WF1 Engine widget (experimental)</label>
+          <button type="button" id="dashSave" class="primary">Save dashboard</button>
+        </div>
+        <form id="wf1Form" class="card form-grid">
+          <h2>WF1 Engine <span class="muted">Experimental</span></h2>
+          <p class="muted">Live workflow activity from a local Home Monitor proxy. Tokens require TV remote approval. Cleartext LAN only — do not expose beyond your home network.</p>
+          <p id="wf1Status" class="muted"></p>
+          <p id="wf1Pending" class="muted" hidden></p>
+          <label>Proxy base URL <input id="wf1BaseUrl" type="url" placeholder="http://192.168.0.10:8792" /></label>
+          <label>Proxy token <input id="wf1Token" type="password" autocomplete="off" placeholder="Bearer token matching HM_TOKEN" /></label>
+          <div class="row-actions">
+            <button type="button" id="wf1SaveUrl" class="primary">Save URL</button>
+            <button type="button" id="wf1SubmitToken" class="primary">Submit token for TV approval</button>
+            <button type="button" id="wf1Clear" class="ghost">Clear WF1 config</button>
+          </div>
+        </form>
+        <div class="card form-grid">
+          <h2>SmartTube</h2>
+          <p id="smartTubeStatus" class="muted"></p>
+          <ol id="smartTubeSteps" class="muted"></ol>
+        </div>
+      </div>
+
+      <div id="appearancePanel" class="panel" hidden>
+        <div class="card form-grid">
+          <h2>Appearance</h2>
+          <p class="muted">Changes apply on the TV immediately. Custom images stay on the device across APK updates.</p>
+          <h3>Background</h3>
+          <div id="appearanceBgGrid" class="bg-grid"></div>
+          <label class="file-label">
+            Upload image (JPEG / PNG / WebP, max 8&nbsp;MB)
+            <input id="appearanceFile" type="file" accept="image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp" />
+          </label>
+          <button type="button" id="appearanceUpload" class="primary">Upload &amp; use</button>
+          <p id="appearanceUploadError" class="error" hidden></p>
+          <h3>Background dim</h3>
+          <div id="appearanceDimRow" class="choice-row"></div>
+          <h3>Card style</h3>
+          <div id="appearanceStyleRow" class="choice-row"></div>
+          <button type="button" id="appearanceRestore" class="ghost">Restore default</button>
+        </div>
+      </div>
+    </section>
+
+    <p id="toast" class="toast" hidden></p>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "home-monitor-wf1-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only LAN façade over the localhost WF1 monitor for Home Monitor TV",
+  "scripts": {
+    "start": "node server.mjs",
+    "start:dev": "HM_TOKEN=${HM_TOKEN:-change-me-home-monitor-token} node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

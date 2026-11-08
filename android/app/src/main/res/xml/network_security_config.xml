@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Cleartext is required for:
+  - Local web admin (NanoHTTPD on LAN / adb-forward)
+  - Optional WF1 proxy over http://<lan-ip>
+  Do not weaken this further (no user-trust-all certs).
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Template LaunchAgent for the Home Monitor WF1 read-only proxy.
+  Install via: ./install-launchagent.sh
+  Does NOT modify the existing WF1 monitor LaunchAgent.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>space.cactusinc.home-monitor.wf1-proxy</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/env</string>
+    <string>node</string>
+    <string>__PROXY_SERVER__</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>__PROXY_DIR__</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>HM_HOST</key>
+    <string>0.0.0.0</string>
+    <key>HM_PORT</key>
+    <string>8792</string>
+    <key>HM_TOKEN</key>
+    <string>__HM_TOKEN__</string>
+    <key>WF1_MONITOR_URL</key>
+    <string>http://127.0.0.1:8791</string>
+    <key>PATH</key>
+    <string>/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>__LOG_DIR__/wf1-proxy.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>__LOG_DIR__/wf1-proxy.err.log</string>
+</dict>
+</plist>

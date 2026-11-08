@@ -1,0 +1,45 @@
+=== AFTER HOME 2026-11-07T22:12:21Z ===
+  mCurrentFocus=Window{ef636d5 u0 dev.plume/dev.plume.MainActivity}
+  mFocusedApp=ActivityRecord{63ce97f u0 dev.plume/.MainActivity t32}
+MEDIA SESSION SERVICE (dumpsys media_session)
+
+1 sessions listeners.
+Global priority session is null
+User Records:
+Record for full_user=0
+  Volume key long-press listener: null
+  Volume key long-press listener package: 
+  Media key listener: null
+  Media key listener package: 
+  OnMediaKeyEventDispatchedListener: added 0 listener(s)
+  OnMediaKeyEventSessionChangedListener: added 0 listener(s)
+  Last MediaButtonReceiver: null
+  Media button session is null
+  Sessions Stack - have 0 sessions:
+Audio playback (lastly played comes first)
+  uid=10026 packages=com.ecloud.eairplay 
+  uid=10059 packages=org.smarttube.stable 
+MediaFocusControl dump time: 11:12:21 PM
+11-07 08:04:58:894 requestAudioFocus() from uid/pid 10059/3298 clientId=android.media.AudioManager@a58b192com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@6ca4763 callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 08:06:21:044 requestAudioFocus() from uid/pid 10059/3298 clientId=android.media.AudioManager@a58b192com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@4076570 callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 08:06:49:771 requestAudioFocus() from uid/pid 10059/3298 clientId=android.media.AudioManager@a58b192com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@ed0304 callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 08:07:36:999 requestAudioFocus() from uid/pid 10059/3298 clientId=android.media.AudioManager@a58b192com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@6adcf58 callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 08:08:16:087 requestAudioFocus() from uid/pid 10059/3298 clientId=android.media.AudioManager@a58b192com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@e40f558 callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 08:09:07:939 requestAudioFocus() from uid/pid 10059/3298 clientId=android.media.AudioManager@a58b192com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@8859586 callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 08:09:55:242 requestAudioFocus() from uid/pid 10059/3298 clientId=android.media.AudioManager@a58b192com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@62c2226 callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 08:12:53:358 requestAudioFocus() from uid/pid 10059/3298 clientId=android.media.AudioManager@a58b192com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@62c2226 callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 08:14:26:613 requestAudioFocus() from uid/pid 10059/3298 clientId=android.media.AudioManager@a58b192com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@62c2226 callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 08:14:54:762 requestAudioFocus() from uid/pid 10059/3298 clientId=android.media.AudioManager@a58b192com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@62c2226 callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 21:49:18:494 requestAudioFocus() from uid/pid 10059/628 clientId=android.media.AudioManager@baf1e6ccom.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@85d0c35 callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 23:10:58:487 requestAudioFocus() from uid/pid 10059/1747 clientId=android.media.AudioManager@2d620f9com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@cce183e callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 23:11:22:046 requestAudioFocus() from uid/pid 10059/1747 clientId=android.media.AudioManager@2d620f9com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@cce183e callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+11-07 23:12:13:000 requestAudioFocus() from uid/pid 10059/3239 clientId=android.media.AudioManager@2d620f9com.google.android.exoplayer2.audio.AudioFocusManager$AudioFocusListener@cce183e callingPack=org.smarttube.stable req=1 flags=0x0 sdk=34
+  AudioPlaybackConfiguration piid:15 type:android.media.SoundPool u/pid:1000/703 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  AudioPlaybackConfiguration piid:23 type:android.media.SoundPool u/pid:10041/1089 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  AudioPlaybackConfiguration piid:375 type:android.media.AudioTrack u/pid:10026/2843 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0xA00 tags= bundle=null
+  PinnedStackController
+      pinned:
+  * ServiceRecord{3637b0f u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.common.misc.RemoteControlService}
+    intent={cmp=org.smarttube.stable/com.liskovsoft.smartyoutubetv2.common.misc.RemoteControlService}
+    isForeground=true foregroundId=95014843 foregroundNoti=Notification(channel=org.smarttube.stable shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+  * ServiceRecord{4608719 u0 org.smarttube.stable/org.chromium.content.app.SandboxedProcessService0:0}

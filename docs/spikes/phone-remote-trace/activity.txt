@@ -1,0 +1,12 @@
+===== 00:32:22 tick=1 =====
+    mResumedActivity: ActivityRecord{4061da8 u0 com.custom.vox.homemonitor/.MainActivity t183}
+===== 00:32:23 tick=2 =====
+    mResumedActivity: ActivityRecord{4061da8 u0 com.custom.vox.homemonitor/.MainActivity t183}
+===== 00:32:24 tick=3 =====
+    mResumedActivity: ActivityRecord{c252fda u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity t173}
+===== 00:32:24 tick=4 =====
+    mResumedActivity: ActivityRecord{c252fda u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity t173}
+===== 00:32:25 tick=5 =====
+    mResumedActivity: ActivityRecord{c252fda u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity t173}
+===== 00:32:26 tick=6 =====
+    mResumedActivity: ActivityRecord{c252fda u0 org.smarttube.stable/com.liskovsoft.smartyoutubetv2.tv.ui.playback.PlaybackActivity t173}

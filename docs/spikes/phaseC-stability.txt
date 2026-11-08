@@ -1,0 +1,14 @@
+=== +20s ===
+3708
+3797
+  Sessions Stack - have 1 sessions:
+      package=org.smarttube.stable
+      state=PlaybackState {state=3, position=-90, buffered position=2560, speed=1.0, updated=85205331, actions=2360191, custom actions=[], active item id=0, error=null}
+11-07 23:37:19.322  3708  1155 I MediaSessionDiag: state=PLAYING title=null artist=null dur=213000 pos=44809 est=44810 art=null
+11-07 23:37:19.325  3708  3708 I MediaSessionDiag: MEDIA SESSION DIAG (org.smarttube.stable) | listenerEnabled=true | sessionFound=true | state=PLAYING (3) | title=— | artist=— | durationMs=213000 | reportedPosMs=44809 | estimatedPosMs=44810 (framework+reported) | artUri=— | artReachable=—  | 
+11-07 23:37:20.323  3708  1155 I MediaSessionDiag: state=PLAYING title=null artist=null dur=213000 pos=45810 est=45811 art=null
+11-07 23:37:20.326  3708  3708 I MediaSessionDiag: MEDIA SESSION DIAG (org.smarttube.stable) | listenerEnabled=true | sessionFound=true | state=PLAYING (3) | title=— | artist=— | durationMs=213000 | reportedPosMs=45810 | estimatedPosMs=45811 (framework+reported) | artUri=— | artReachable=—  | 
+11-07 23:37:21.324  3708  1155 I MediaSessionDiag: state=PLAYING title=null artist=null dur=213000 pos=46811 est=46812 art=null
+11-07 23:37:21.328  3708  3708 I MediaSessionDiag: MEDIA SESSION DIAG (org.smarttube.stable) | listenerEnabled=true | sessionFound=true | state=PLAYING (3) | title=— | artist=— | durationMs=213000 | reportedPosMs=46811 | estimatedPosMs=46812 (framework+reported) | artUri=— | artReachable=—  | 
+11-07 23:37:22.325  3708  1155 I MediaSessionDiag: state=PLAYING title=null artist=null dur=213000 pos=47812 est=47813 art=null
+11-07 23:37:22.334  3708  3708 I MediaSessionDiag: MEDIA SESSION DIAG (org.smarttube.stable) | listenerEnabled=true | sessionFound=true | state=PLAYING (3) | title=— | artist=— | durationMs=213000 | reportedPosMs=47812 | estimatedPosMs=47813 (framework+reported) | artUri=— | artReachable=—  | 

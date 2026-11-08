@@ -1,0 +1,100 @@
+=== PERF FG PLAY 2026-11-07T22:13:28Z ===
+Applications Memory Usage (in Kilobytes):
+Uptime: 30551005 Realtime: 83819381
+
+** MEMINFO in pid 810 [org.smarttube.stable] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    27936    27896        0     1111    28356   226980   201774    15101
+  Dalvik Heap   111901   111864        0      975   112344   137682   113106    24576
+ Dalvik Other     3939     3216        0        4     5048                           
+        Stack     2864     2864        0       56     2864                           
+       Ashmem     1533      156        0        0     2976                           
+    Other dev       26        0       24        0      292                           
+     .so mmap    24586      908    18676       78    52832                           
+    .jar mmap     3385        0     1208        0    23100                           
+    .apk mmap    13196      132     4800        0    32460                           
+    .ttf mmap      825        0      772        0      944                           
+    .dex mmap    20880        4    20864        4    20948                           
+    .oat mmap     1465        0      348        0    12420                           
+    .art mmap     2100     1632        4      123     9904                           
+   Other mmap      482       12      160        0     1856                           
+      Unknown      545      528        0       80      760                           
+        TOTAL   218094   149212    46856     2431   218094   364662   314880    39677
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:   113500                         122248
+         Native Heap:    27896                          28356
+                Code:    47712                         144184
+               Stack:     2864                           2864
+            Graphics:        0                              0
+       Private Other:     4096
+              System:    22026
+             Unknown:                                    9452
+ 
+           TOTAL PSS:   218094            TOTAL RSS:   307104       TOTAL SWAP PSS:     2431
+ 
+ Objects
+               Views:      201         ViewRootImpl:        1
+         AppContexts:        7           Activities:        1
+              Assets:        5        AssetManagers:        0
+       Local Binders:       50        Proxy Binders:       42
+       Parcel memory:       18         Parcel count:       70
+    Death Recipients:        2      OpenSSL Sockets:       26
+Applications Memory Usage (in Kilobytes):
+Uptime: 30551853 Realtime: 83820229
+
+** MEMINFO in pid 1908 [com.custom.vox.homemonitor] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap      927      904        0    15184     1276    29676    13860     5764
+  Dalvik Heap      125       88        0     2347      580     4526     3411     1115
+ Dalvik Other      608       80        0     1744     1416                           
+        Stack      148      148        0      600      148                           
+       Ashmem        0        0        0        0        4                           
+    Other dev        9        0        8        0      272                           
+     .so mmap     4187       12        0      166    29156                           
+    .jar mmap     1518        0        0        0    18804                           
+    .apk mmap      254        0        0        0     3728                           
+    .ttf mmap       21        0        0        0      108                           
+    .dex mmap      150      148        0    12376      164                           
+    .oat mmap       73        0        0        0     1676                           
+    .art mmap      495      224        0     5198     6392                           
+   Other mmap       32        0        0        8      620                           
+      Unknown       83       60        0      275      336                           
+        TOTAL    46528     1664        8    37898    46528    34202    17271     6879
+ 
+ App Summary
+Tasks: 327 total,   2 running, 325 sleeping,   0 stopped,   0 zombie
+  Mem:  1572864K total,  1534032K used,  39763968 free,   1658880 buffers
+ Swap:   614396K total,   512976K used,   101420K free,   328940K cached
+400%cpu  51%user   0%nice  63%sys 283%idle   0%iow   0%irq   3%sirq   0%host
+   PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+   810 u0_a59       10 -10 2.3G 292M 142M S 22.8  19.0   0:50.32 org.smarttube.stable
+  1952 shell        20   0  11M 3.4M 2.7M R 20.0   0.2   0:00.11 top -n 1 -b
+   280 system       20   0  27M 1.5M 1.2M S 17.1   0.1   9:08.44 rtkd
+   389 system       -3  -8 105M  12M 7.6M S  8.5   0.7  16:41.93 surfaceflinger
+   364 system       -3  -4  72M 4.1M 3.4M S  8.5   0.2   4:34.55 android.hardware.graphics.composer-rtk@2.4-service
+   703 system       18  -2 2.1G 119M  82M S  5.7   7.7  31:27.65 system_server
+   519 mediacodec   20   0  61M 6.1M 5.2M S  5.7   0.3   1:20.64 media.swcodec oid.media.swcodec/bin/mediaswcodec
+   512 system       20   0 156M 3.5M 3.1M S  5.7   0.2   7:47.25 tvservice
+   505 mediacodec   20   0  82M 6.6M 5.6M S  5.7   0.4   2:10.44 media.codec hw/android.hardware.media.omx@1.0-service
+   386 audioserver  20   0  77M 4.9M 3.6M S  5.7   0.3   2:13.19 audioserver
+   348 audioserver  20   0  52M 2.9M 2.6M S  5.7   0.1   2:25.98 android.hardware.audio.service
+   137 root         20   0    0    0    0 D  2.8   0.0   0:29.56 [VPQ_detect_tsk]
+    26 root         20   0    0    0    0 S  2.8   0.0   0:40.15 [ksoftirqd/3]
+  1950 shell        20   0 9.4M 2.8M 2.3M S  0.0   0.1   0:00.01 sleep 0.7
+  1909 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/u8:1]
+26.23 24.79 24.08 2/2005 1972
+MemTotal:        1572864 kB
+MemFree:           37032 kB
+MemAvailable:     294708 kB
+Buffers:            1620 kB
+Cached:           328956 kB
+SwapCached:        16992 kB
+Active:           363656 kB
+Inactive:         335336 kB

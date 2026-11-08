@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settingsPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hm_appearance_veil"
+    android:clickable="true"
+    android:focusable="false"
+    android:visibility="gone">
+
+    <com.custom.vox.homemonitor.dashboard.FocusTrapSheet
+        android:id="@+id/settingsSheet"
+        android:layout_width="560dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@drawable/bg_panel_solid"
+        android:clickable="true"
+        android:descendantFocusability="afterDescendants"
+        android:focusable="false"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingTop="24dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:id="@+id/settingsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/settings_title"
+            android:textColor="@color/hm_text_primary"
+            android:textSize="26sp" />
+
+        <LinearLayout
+            android:id="@+id/settingsPendingBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_service_down"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_pending_key"
+                android:textColor="@color/hm_text_primary"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/settingsPendingApprove"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_appearance_option"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="@string/settings_approve_key"
+                    android:textColor="@color/hm_text_primary"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/settingsPendingReject"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_appearance_option"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="@string/settings_reject_key"
+                    android:textColor="@color/hm_text_secondary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/settingsPageHost"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1">
+
+            <!-- Hub -->
+            <LinearLayout
+                android:id="@+id/settingsPageHub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/settingsNavDashboard"
+                    style="@style/HmSettingsNavItem"
+                    android:text="@string/settings_dashboard" />
+
+                <TextView
+                    android:id="@+id/settingsNavAppearance"
+                    style="@style/HmSettingsNavItem"
+                    android:text="@string/appearance_title" />
+
+                <TextView
+                    android:id="@+id/settingsNavIntegrations"
+                    style="@style/HmSettingsNavItem"
+                    android:text="@string/settings_integrations" />
+
+                <TextView
+                    android:id="@+id/settingsNavAbout"
+                    style="@style/HmSettingsNavItem"
+                    android:text="@string/settings_about" />
+            </LinearLayout>
+
+            <!-- Dashboard toggles -->
+            <LinearLayout
+                android:id="@+id/settingsPageDashboard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/settingsToggleServices"
+                    style="@style/HmSettingsNavItem"
+                    android:text="@string/settings_services_toggle" />
+
+                <TextView
+                    android:id="@+id/settingsToggleNowPlaying"
+                    style="@style/HmSettingsNavItem"
+                    android:text="@string/settings_np_toggle" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/settings_wf1_section"
+                    android:textAllCaps="true"
+                    android:textColor="@color/hm_text_secondary"
+                    android:textSize="12sp"
+                    android:letterSpacing="0.08" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/settings_wf1_subtitle"
+                    android:textColor="@color/hm_text_muted"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/bg_appearance_option"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/settings_wf1_experimental"
+                    android:textColor="@color/hm_accent_cyan"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/settingsToggleWf1"
+                    style="@style/HmSettingsNavItem"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/settings_wf1_toggle" />
+            </LinearLayout>
+
+            <!-- Appearance (same controls as BF1) -->
+            <ScrollView
+                android:id="@+id/settingsPageAppearance"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="afterDescendants"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:letterSpacing="0.08"
+                        android:text="@string/appearance_background"
+                        android:textAllCaps="true"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/appearanceBgRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:letterSpacing="0.08"
+                        android:text="@string/appearance_dim"
+                        android:textAllCaps="true"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/appearanceDimRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:letterSpacing="0.08"
+                        android:text="@string/appearance_card_style"
+                        android:textAllCaps="true"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/appearanceStyleRow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal" />
+
+                    <TextView
+                        android:id="@+id/appearanceRestore"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bg_appearance_option"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:text="@string/appearance_restore_default"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </ScrollView>
+
+            <!-- Integrations -->
+            <ScrollView
+                android:id="@+id/settingsPageIntegrations"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="afterDescendants"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="16dp">
+
+                    <TextView
+                        android:id="@+id/settingsIntegrationsSummary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_appearance_option"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:lineSpacingExtra="4dp"
+                        android:padding="14dp"
+                        android:textColor="@color/hm_text_primary"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        style="@style/HmSettingsSectionLabel"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/settings_admin_section" />
+
+                    <TextView
+                        android:id="@+id/settingsAdminUrl"
+                        style="@style/HmSettingsNavItem"
+                        android:text="@string/settings_admin_url" />
+
+                    <TextView
+                        android:id="@+id/settingsAdminShowToken"
+                        style="@style/HmSettingsNavItem"
+                        android:text="@string/settings_admin_show_token" />
+
+                    <TextView
+                        android:id="@+id/settingsAdminRegenToken"
+                        style="@style/HmSettingsNavItem"
+                        android:text="@string/settings_admin_regen_token" />
+
+                    <TextView
+                        android:id="@+id/settingsAdminHint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:lineSpacingExtra="3dp"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        style="@style/HmSettingsSectionLabel"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/settings_uptimerobot" />
+
+                    <TextView
+                        android:id="@+id/settingsUptimeStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:lineSpacingExtra="3dp"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/settingsUrLoadMonitors"
+                        style="@style/HmSettingsNavItem"
+                        android:text="@string/settings_ur_load_monitors" />
+
+                    <TextView
+                        android:id="@+id/settingsUrMaxHint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/settings_ur_max_selected"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/settingsUrMonitorList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/settingsUrSaveSelection"
+                        style="@style/HmSettingsNavItem"
+                        android:text="@string/settings_ur_save_selection" />
+
+                    <TextView
+                        android:id="@+id/settingsUrDisconnect"
+                        style="@style/HmSettingsNavItem"
+                        android:text="@string/settings_ur_disconnect" />
+
+                    <TextView
+                        style="@style/HmSettingsSectionLabel"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/settings_http" />
+
+                    <TextView
+                        android:id="@+id/settingsHttpStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:lineSpacingExtra="3dp"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        style="@style/HmSettingsSectionLabel"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/settings_wf1_section" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/settings_wf1_subtitle"
+                        android:textColor="@color/hm_text_muted"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:background="@drawable/bg_appearance_option"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/settings_wf1_experimental"
+                        android:textColor="@color/hm_accent_cyan"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/settingsWf1Status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:lineSpacingExtra="3dp"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/settingsToggleWf1Integrations"
+                        style="@style/HmSettingsNavItem"
+                        android:text="@string/settings_wf1_toggle" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:lineSpacingExtra="3dp"
+                        android:text="@string/settings_wf1_hint"
+                        android:textColor="@color/hm_text_muted"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        style="@style/HmSettingsSectionLabel"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/settings_smarttube" />
+
+                    <TextView
+                        android:id="@+id/settingsSmartTubeStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:lineSpacingExtra="3dp"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/settingsOpenNls"
+                        style="@style/HmSettingsNavItem"
+                        android:text="@string/settings_open_nls" />
+
+                    <TextView
+                        android:id="@+id/settingsOpenSmartTube"
+                        style="@style/HmSettingsNavItem"
+                        android:text="@string/settings_open_smarttube" />
+
+                    <TextView
+                        android:id="@+id/settingsIntegrationsHint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:lineSpacingExtra="3dp"
+                        android:textColor="@color/hm_text_secondary"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </ScrollView>
+
+            <!-- About -->
+            <LinearLayout
+                android:id="@+id/settingsPageAbout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/settingsAboutBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/hm_text_secondary"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/settingsToggleDiagnostics"
+                    style="@style/HmSettingsNavItem"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/settings_diagnostics_toggle" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="@string/settings_diagnostics_hint"
+                    android:textColor="@color/hm_text_muted"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/settingsBack"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_appearance_option"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/settings_back"
+                android:textColor="@color/hm_text_secondary"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/settingsDone"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_appearance_option"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/appearance_done"
+                android:textColor="@color/hm_text_primary"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </com.custom.vox.homemonitor.dashboard.FocusTrapSheet>
+</FrameLayout>
