@@ -1,6 +1,6 @@
 # Install Home Monitor on Android TV
 
-Home Monitor is an Android TV **app**, not a replacement firmware or default system launcher. It is an early beta; compatibility with most TV models has not been confirmed.
+Home Monitor is an Android TV **app**, not a replacement firmware or default system launcher. Official beta APKs are free for personal, non-commercial evaluation under the [Free Beta License](LICENSE.md). Please link others to official GitHub Releases instead of redistributing the APK. It is an early beta; compatibility with most TV models has not been confirmed.
 
 ## 1. Get the APK
 
