@@ -62,7 +62,7 @@ Found an issue? [Open a GitHub Issue](https://github.com/cetninarius/home-monito
 
 **Do not include** API keys, local admin tokens, personal calendar/to-do content, account details, private IP addresses, or raw logs with sensitive information.
 
-For data handling, see [PRIVACY.md](PRIVACY.md).
+For data handling, see [PRIVACY.md](PRIVACY.md). For distribution and permitted use, see [LICENSE.md](LICENSE.md).
 
 ## Known limitations
 
@@ -85,7 +85,7 @@ cd android
 
 Requires a suitable Android SDK and JDK 17. The debug APK is for development, **not** the signed beta release. Keep keystores, local properties and credentials outside version control. See [signing notes](docs/release/SIGNING.md).
 
-This repository is publicly readable. **No open-source license has been selected yet**; public availability of source code does not grant unrestricted redistribution or modification rights. That is an open maintainer decision.
+This repository is publicly readable. The source is **publicly viewable but not open-source**. See [Free Beta License](LICENSE.md): official APKs may be installed and used free of charge for personal, non-commercial evaluation; redistribution, repackaging and reuse of original source are not authorized by these terms. Third-party components retain their own licenses.
 
 ## Credits and independence
 
