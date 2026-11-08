@@ -4,7 +4,7 @@
 
 ---
 
-**Title:** [Beta] Home Monitor — open-source-style Android TV living-room dashboard (sideload APK)
+**Title:** [Beta] Home Monitor — Android TV living-room dashboard (sideload APK)
 
 Hey folks — I’ve been building a small Android TV dashboard for my living-room TV and I’m looking for a few beta testers outside my own setup.
 
@@ -26,7 +26,7 @@ I wanted a calm always-on board for the TV without replacing the whole OS or fig
 **Download**  
 [GitHub Releases link to `home-monitor-v1.8.0-beta.3.apk` — placeholder until published]
 
-Install notes and privacy/diagnostics disclosure are in the release README. Crash reporting is opt-in and off by default.
+Install notes and privacy/diagnostics disclosure are in the repository README. Official beta APKs are free for personal evaluation under the [Free Beta License](../../../LICENSE.md); the source is not open-source. Crash reporting is opt-in and off by default.
 
 **Feedback**  
 Please file issues with TV model + Android version + steps. Don’t post tokens or personal calendar/to-do text.
