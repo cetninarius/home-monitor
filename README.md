@@ -4,6 +4,12 @@
 
 Home Monitor is an independent, lightweight Android TV app that turns your TV into a glanceable screen with time, weather, calendar, tasks, and optional integrations. It is designed for D-pad remote controls and low-resource devices.
 
+## Preview
+
+![Home Monitor dashboard on Android TV — Baghdad background](docs/bf3-qa/state-final-baghdad.png)
+
+*Screenshot from the primary tested VOX TV. Layout and available integrations may differ on other devices.*
+
 > **Early public beta.** The app has been developed and tested primarily on a VOX UHD 43A11U314B (Ateko / rtd2851a). Compatibility and behavior on other Android TV / Google TV devices are not yet verified. This app is **not** a replacement for your TV firmware or the default system launcher.
 
 ## Features
