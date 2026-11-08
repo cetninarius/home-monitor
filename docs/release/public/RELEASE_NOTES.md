@@ -31,11 +31,15 @@
 - Weather location is fixed to Belgrade in this build
 - WF1 needs a separate LAN proxy you operate
 - Not registered as default HOME launcher
-- This beta APK may be signed with a **debug** key unless a release keystore is configured — plan a one-time migrate when switching to a long-term signing identity
+- The project's stable release signing identity is documented in [SIGNING.md](../SIGNING.md). **Verify the actual published APK certificate** against that identity before distribution; do not publish a debug-signed artifact.
+
+## License
+
+Official beta APKs are free for personal, non-commercial evaluation; the source is not licensed for redistribution or derivative works. See [LICENSE.md](../../../LICENSE.md).
 
 ## Installation / upgrade
 
-See [INSTALL.md](INSTALL.md). Use `install -r` / overwrite install to keep local data when the signing identity matches.
+See [INSTALL.md](../../../INSTALL.md). Use `install -r` / overwrite install to keep local data when the signing identity matches.
 
 ## Feedback
 
