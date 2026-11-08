@@ -37,6 +37,10 @@ Place screenshots or a short video here when publishing the public releases repo
 
 Development captures also exist in the private source tree under `docs/bf3-qa/`.
 
+## License and permitted use
+
+Official beta APKs are free to install and use for personal, non-commercial evaluation. Source is publicly viewable but **not open-source**; redistributing or repackaging the official APK and reusing original source code are not authorized. See [LICENSE.md](../../../LICENSE.md). Third-party components retain their own licenses.
+
 ## Installation
 
 See **[INSTALL.md](INSTALL.md)** for sideload steps (no developer tools required for most TVs).
@@ -67,7 +71,7 @@ Android TV Settings → Apps → Home Monitor → Uninstall
 
 ## Report bugs
 
-Use the GitHub Issue template in this releases repository. Include TV brand/model, Android version, app version, and steps to reproduce. Do **not** paste admin tokens, API keys, calendar/to-do text, or private logs.
+Use the GitHub Issue template in this repository. Include TV brand/model, Android version, app version, and steps to reproduce. Do **not** paste admin tokens, API keys, calendar/to-do text, or private logs.
 
 ## Privacy and diagnostics
 
